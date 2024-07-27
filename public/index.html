@@ -27,8 +27,8 @@
                 <input type="text" class="form-control" id="address" required>
             </div>
             <div class="form-group">
-                <label for="items">Itens:</label>
-                <textarea class="form-control" id="items" rows="3" required></textarea>
+                <input list="itens" class="form-control" id="produtos" name="produtos">
+                <datalist id="itens"></datalist>
             </div>
             <button type="submit" class="btn btn-primary">Enviar Solicitação</button>
         </form>
@@ -36,12 +36,8 @@
     
     <!-- Script do jQuery e Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Script do Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
-    <!-- Seu JavaScript -->
-    <script src="scripts.js" type="module"></script>
+
+    <script src="scripts.js" ></script>
 </body>
 </html>

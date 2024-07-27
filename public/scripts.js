@@ -1,51 +1,46 @@
+const database = [];
 
-const firebaseConfig = {
-    apiKey: "AIzaSyC-4D-5eh0LnVPyt58faoNM-tKmVSaVJD8",
-    authDomain: "acaciobebidas-d6bd6.firebaseapp.com",
-    databaseURL: "https://acaciobebidas-d6bd6-default-rtdb.firebaseio.com",
-    projectId: "acaciobebidas-d6bd6",
-    storageBucket: "acaciobebidas-d6bd6.appspot.com",
-    messagingSenderId: "510637509123",
-    appId: "1:510637509123:web:67609ea8d14b77c22a5c36",
-    measurementId: "G-4HD7QHMEBQ"
-  };
-
-  
-// Initialize Firebase
-const app = firebase.initializeApp(firebaseConfig);
-const db = firebase.firestore();
-
-// Fetch and display data
-async function fetchData() {
-    const productsDiv = document.getElementById('products');
-    try {
-        const querySnapshot = await db.collection('produtos').get();
-        querySnapshot.forEach((doc) => {
-            const data = doc.data();
-            const product = {
-                descricao: data["Descrição"],
-                preco_venda: data["Preco Venda"],
-                data_ini_prom: data["Data Ini Prom"],
-                data_lim_prom: data["Data Lim Prom"],
-                id_produto: data["IdProduto"],
-                total_estoques: data["Total Estoques"]
-            };
-
-            // Create HTML elements to display the product data
-            const productDiv = document.createElement('div');
-            productDiv.innerHTML = `
-                <p>Descrição: ${product.descricao}</p>
-                <p>Preço Venda: ${product.preco_venda}</p>
-                <p>Data Início Promoção: ${product.data_ini_prom}</p>
-                <p>Data Limite Promoção: ${product.data_lim_prom}</p>
-                <p>ID Produto: ${product.id_produto}</p>
-                <p>Total Estoques: ${product.total_estoques}</p>
-            `;
-            productsDiv.appendChild(productDiv);
-        });
-    } catch (error) {
-        console.error("Error fetching data: ", error);
+// Função para converter uma string de data no formato "dd-MM-yyyy" para um objeto Date
+function parseDate(dateString) {
+    const [day, month, year] = dateString.split('/').map(Number);
+    return new Date(year, month - 1, day);
     }
+
+// Função para verificar se a data está dentro do intervalo
+function isDateWithinRange(dateToCheck, startDate, endDate) {
+    const date = parseDate(dateToCheck);
+    const start = parseDate(startDate);
+    const end = parseDate(endDate);
+
+    return date >= start && date <= end;
 }
 
-fetchData();
+// Função para obter a data atual no formato "dd-MM-yyyy"
+function getCurrentDateFormatted() {
+    const now = new Date();
+    const day = String(now.getDate()).padStart(2, '0');
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const year = now.getFullYear();
+    return `${day}/${month}/${year}`;
+}
+
+
+// Função para popular o datalist e a const database
+document.addEventListener("DOMContentLoaded", function() {
+    fetch('./estoque.json')
+        .then(response => response.json())
+        .then(data => {
+            let datalist = document.getElementById('itens');
+            let today = getCurrentDateFormatted();
+
+            data.forEach(item => {
+                let preco = item["Preco Venda"];
+
+                let option = document.createElement('option');
+                option.value = `${item.Descricao} - R$ ${preco}`;
+                datalist.appendChild(option); 
+                database.push(item);
+            });
+        })
+        .catch(error => console.error('Erro ao carregar o JSON:', error));
+});
