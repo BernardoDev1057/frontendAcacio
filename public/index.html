@@ -16,22 +16,27 @@
         <form id="deliveryForm">
             <div class="form-group">
                 <label for="name">Nome:</label>
-                <input type="text" class="form-control" id="name" required>
+                <input type="text" class="form-control" placeholder="Ex: Fulano" id="name" required>
             </div>
             <div class="form-group">
                 <label for="phone">Telefone:</label>
-                <input type= "tel" class="form-control" id="phone" required>
+                <input type= "tel" class="form-control" placeholder="Ex: 88989357"id="phone" required>
             </div>
             <div class="form-group">
                 <label for="address">Endereço:</label>
-                <input type="text" class="form-control" id="address" required>
+                <input type="text" class="form-control" placeholder="Ex: Av.Litoranea 000" id="address" required>
             </div>
             <div class="form-group">
-                <input list="itens" class="form-control" id="produtos" name="produtos">
+                <label for="itens">Produtos:</label>
+                <input list="itens" class="form-control" placeholder="Ex: Devassa 600ml" id="produtos" name="produtos">
                 <datalist id="itens"></datalist>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar Solicitação</button>
+            <button type="button" class="btn btn-secondary mt-2" id="addProductButton">Adicionar Produto</button>
         </form>
+        <h2 class="mt-5">Carrinho</h2>
+        <ul id="cart" class="list-group mb-3"></ul>
+        <h3 id="total">Total: R$ 0.00</h3>
+        <button type="button" class="btn btn-primary" id="submitOrderButton" style="display: none;">Enviar Pedido</button>
     </div>
     
     <!-- Script do jQuery e Bootstrap -->

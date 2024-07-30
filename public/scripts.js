@@ -1,4 +1,6 @@
 const database = [];
+const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
 
 // Função para converter uma string de data no formato "dd-MM-yyyy" para um objeto Date
 function parseDate(dateString) {
@@ -34,13 +36,89 @@ document.addEventListener("DOMContentLoaded", function() {
             let today = getCurrentDateFormatted();
 
             data.forEach(item => {
-                let preco = item["Preco Venda"];
+                let preco = typeof item["Preco Venda"] === 'string' 
+                    ? parseFloat(item["Preco Venda"].replace(',', '.')) 
+                    : item["Preco Venda"];
+
+                let precoPromocao = typeof item["Preco Prom."] === 'string' 
+                    ? parseFloat(item["Preco Prom."].replace(',', '.')) 
+                    : item["Preco Prom."];
+                let dataIniProm = item["Data Ini Prom"];
+                let dataLimProm = item["Data Lim. Prom."];
 
                 let option = document.createElement('option');
-                option.value = `${item.Descricao} - R$ ${preco}`;
+                if (isDateWithinRange(today, dataIniProm, dataLimProm) && precoPromocao > 0) {
+                    option.value = `(${item.IdProduto}) ${item.Descrição} - de R$ ${preco.toFixed(2)} por R$ ${precoPromocao.toFixed(2)}`;
+                } else {
+                    option.value = `(${item.IdProduto}) ${item.Descrição} - R$ ${preco.toFixed(2)}`;
+                }
                 datalist.appendChild(option); 
-                database.push(item);
+                database.push({...item, precoVenda: preco, precoPromocao: precoPromocao}); // Armazenar como número
             });
         })
         .catch(error => console.error('Erro ao carregar o JSON:', error));
+});
+// Função para adicionar um item ao carrinho
+function addToCart(item, quantity) {
+    const existingItem = cart.find(cartItem => cartItem.IdProduto === item.IdProduto);
+
+    if (existingItem) {
+        existingItem.quantity += quantity;
+    } else {
+        item.quantity = quantity;
+        cart.push(item);
+    }
+
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartDisplay();
+}
+
+// Função para atualizar a exibição do carrinho
+function updateCartDisplay() {
+    const cartList = document.getElementById('cart');
+    const totalDisplay = document.getElementById('total');
+    const submitOrderButton = document.getElementById('submitOrderButton');
+
+    cartList.innerHTML = '';
+
+    let total = 0;
+
+    cart.forEach((item, index) => {
+        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
+
+        const listItem = document.createElement('li');
+        listItem.className = 'list-group-item';
+        listItem.innerHTML = `${item.Descrição} - ${item.quantity} x R$ ${price.toFixed(2)} <button class="btn btn-danger btn-sm float-right" onclick="removeFromCart(${index})">Remover</button>`;
+        cartList.appendChild(listItem);
+        total += price * item.quantity;
+    });
+
+    totalDisplay.textContent = `Total: R$ ${total.toFixed(2)}`;
+    submitOrderButton.style.display = cart.length > 0 ? 'block' : 'none';
+}
+
+// Função para remover um item do carrinho
+function removeFromCart(index) {
+    cart.splice(index, 1);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartDisplay();
+}
+
+// Adicionar produto ao carrinho ao clicar no botão
+document.getElementById('addProductButton').addEventListener('click', function() {
+    const selectedValue = document.getElementById('produtos').value;
+    const selectedProductIndex = parseInt(selectedValue.match(/^\((\d+)\)/)?.[1], 10);
+    const selectedProduct = database.find(item => item.IdProduto === selectedProductIndex);
+
+    if (selectedProduct) {
+        const quantity = parseInt(prompt('Digite a quantidade desejada:'), 10);
+        if (quantity && !isNaN(quantity) && quantity > 0) {
+            addToCart(selectedProduct, quantity);
+            document.getElementById('produtos').value="";
+        } else {
+            alert('Quantidade inválida.');
+        }
+    } else {
+        alert('Selecione um produto válido.');
+    }
 });
