@@ -46,6 +46,6 @@ A base dados vem em JSON chamado 'Estoque.json' como o exemplo:
 
 
 Ainda faltam os seguintes itens:
-- [] Botao e função para adicionar/remover itens
-- [] Função para onde deve ser enviado o pedido finalizado
-- [] Detalhes do carrinho
+- [ ] Botao e função para adicionar/remover itens
+- [ ] Função para onde deve ser enviado o pedido finalizado
+- [ ] Detalhes do carrinho
