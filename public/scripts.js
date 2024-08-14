@@ -152,23 +152,3 @@ document.getElementById('addProductButton').addEventListener('click', function()
         alert('Selecione um produto válido.');
     }
 });
-
-submitOrderButton.addEventListener('click', function() {
-    const cartItems = cart.map(item => {
-        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
-        return `- ${item.Descrição} (x${item.quantity}): R$ ${(price * item.quantity).toFixed(2)}`;
-    }).join('\n');
-
-    const total = cart.reduce((sum, item) => {
-        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
-        return sum + (price * item.quantity);
-    }, 0);
-
-    const message = `Olá, gostaria de fazer um pedido:\n\n${cartItems}\n\nTotal: R$ ${total.toFixed(2)}`;
-
-    const phoneNumber = '558488989357'; // Código do país + DDD + número
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-
-    window.open(whatsappUrl, '_blank');
-});
