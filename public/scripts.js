@@ -1,5 +1,6 @@
 const database = [];
 const cart = JSON.parse(localStorage.getItem('cart')) || [];
+sendButton = document.querySelector(".send");
 
 
 // Função para converter uma string de data no formato "dd-MM-yyyy" para um objeto Date
@@ -57,6 +58,8 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         })
         .catch(error => console.error('Erro ao carregar o JSON:', error));
+
+        updateCartDisplay()
 });
 // Função para adicionar um item ao carrinho
 function addToCart(item, quantity) {
@@ -150,3 +153,4 @@ document.getElementById('addProductButton').addEventListener('click', function()
         alert('Selecione um produto válido.');
     }
 });
+
