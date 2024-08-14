@@ -1,6 +1,6 @@
 const database = [];
 const cart = JSON.parse(localStorage.getItem('cart')) || [];
-sendButton = document.querySelector(".send");
+const submitOrderButton = document.getElementById('submitOrderButton');
 
 
 // Função para converter uma string de data no formato "dd-MM-yyyy" para um objeto Date
@@ -80,7 +80,6 @@ function addToCart(item, quantity) {
 function updateCartDisplay() {
     const cartTableBody = document.querySelector('table tbody');
     const totalDisplay = document.getElementById('total');
-    const submitOrderButton = document.getElementById('submitOrderButton');
 
     cartTableBody.innerHTML = '';
 
@@ -154,3 +153,22 @@ document.getElementById('addProductButton').addEventListener('click', function()
     }
 });
 
+submitOrderButton.addEventListener('click', function() {
+    const cartItems = cart.map(item => {
+        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
+        return `- ${item.Descrição} (x${item.quantity}): R$ ${(price * item.quantity).toFixed(2)}`;
+    }).join('\n');
+
+    const total = cart.reduce((sum, item) => {
+        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
+        return sum + (price * item.quantity);
+    }, 0);
+
+    const message = `Olá, gostaria de fazer um pedido:\n\n${cartItems}\n\nTotal: R$ ${total.toFixed(2)}`;
+
+    const phoneNumber = '558488989357'; // Código do país + DDD + número
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    window.open(whatsappUrl, '_blank');
+});

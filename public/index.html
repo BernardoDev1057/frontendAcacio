@@ -1,0 +1,119 @@
+<<<<<<< HEAD
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acacio Bebidas - Solicitação de Delivery</title>
+    <!-- Link do Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Seu CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Seu conteúdo vai aqui -->
+    <div class="container mt-4">
+        <h1 class="text-center">Delivery - Acacio Bebidas</h1>
+        <form id="deliveryForm">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" placeholder="Ex: Fulano de Tal" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type= "tel" class="form-control" placeholder="Ex: 88989357"  id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Endereço:</label>
+                <input type="text" class="form-control" placeholder="Ex: Nome da rua 000"  id="address" required>
+            </div>
+            <div class="form-group">
+		<label for="itens">Produtos:</label>
+                <input list="itens" class="form-control" placeholder="Devassa 600ml" id="produtos" name="produtos">
+                <datalist id="itens"></datalist>
+            </div>
+	    <div class="btn-group mt-1" role="group">
+	    	<button type="button" id="addProductButton" class="btn btn-success">Adicionar Item</button>
+            	<button type="submit" id="submitOrderButton"class="btn btn-primary send">Enviar Solicitação</button>
+	    </div>
+        </form>
+	<h1 class="mt-1 text-center">Lista de Compras</h1>
+	<table class="table">
+  	<thead>
+   		<tr>
+            <th scope="col">Produto</th>
+            <th scope="col">Quantidade</th>
+            <th scope="col">Total</th>
+            <th scope="col">#</th>
+        </tr>
+ 	 </thead>
+     <tbody></tbody>
+    </table>
+    <p id="total">Total: R$ 0.00</p>
+    </div>
+    <!-- Script do jQuery e Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js" ></script>
+</body>
+</html>
+>>>>>>> 3bebf5d (atualização do estoque e adicionado a funcao sendorde)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acacio Bebidas - Solicitação de Delivery</title>
+    <!-- Link do Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Seu CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Seu conteúdo vai aqui -->
+    <div class="container mt-4">
+        <h1 class="text-center">Delivery - Acacio Bebidas</h1>
+        <form id="deliveryForm">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type= "tel" class="form-control" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Endereço:</label>
+                <input type="text" class="form-control" id="address" required>
+            </div>
+            <div class="form-group">
+                <input list="itens" class="form-control" id="produtos" name="produtos">
+                <datalist id="itens"></datalist>
+            </div>
+	    <div class="btn-group mt-1" role="group">
+	    	<button type="button" id="addProductButton" class="btn btn-success">Adicionar Item</button>
+            	<button type="submit" class="btn btn-primary">Enviar Solicitação</button>
+	    </div>
+        </form>
+	<h1 class="mt-1 text-center">Lista de Compras</h1>
+	<table class="table">
+  	<thead>
+   		<tr>
+            <th scope="col">Produto</th>
+            <th scope="col">Quantidade</th>
+            <th scope="col">Total</th>
+            <th scope="col">#</th>
+        </tr>
+ 	 </thead>
+     <tbody></tbody>
+    </table>
+    <p id="total">Total: R$ 0.00</p> 
+>>>>>>> 8313cc6 (pequenas modificacoes do sistema)
+    </div>
+    <!-- Script do jQuery e Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js" ></script>
+</body>
+</html>
