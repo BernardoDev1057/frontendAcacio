@@ -75,27 +75,55 @@ function addToCart(item, quantity) {
 
 // Função para atualizar a exibição do carrinho
 function updateCartDisplay() {
-    const cartList = document.getElementById('cart');
+    const cartTableBody = document.querySelector('table tbody');
     const totalDisplay = document.getElementById('total');
     const submitOrderButton = document.getElementById('submitOrderButton');
 
-    cartList.innerHTML = '';
+    cartTableBody.innerHTML = '';
 
     let total = 0;
 
     cart.forEach((item, index) => {
         const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
 
-        const listItem = document.createElement('li');
-        listItem.className = 'list-group-item';
-        listItem.innerHTML = `${item.Descrição} - ${item.quantity} x R$ ${price.toFixed(2)} <button class="btn btn-danger btn-sm float-right" onclick="removeFromCart(${index})">Remover</button>`;
-        cartList.appendChild(listItem);
+        const row = document.createElement('tr');
+
+        // Coluna do Produto
+        const productCell = document.createElement('td');
+        productCell.textContent = item.Descrição;
+        row.appendChild(productCell);
+
+        // Coluna da Quantidade
+        const quantityCell = document.createElement('td');
+        quantityCell.textContent = item.quantity;
+        row.appendChild(quantityCell);
+
+        // Coluna do Total
+        const totalCell = document.createElement('td');
+        totalCell.textContent = `R$ ${(price * item.quantity).toFixed(2)}`;
+        row.appendChild(totalCell);
+
+        // Coluna do Botão de Remover
+        const removeCell = document.createElement('td');
+        const removeButton = document.createElement('button');
+        removeButton.className = 'btn btn-danger btn-sm';
+        removeButton.textContent = 'Remover';
+        removeButton.onclick = function() {
+            removeFromCart(index);
+        };
+        removeCell.appendChild(removeButton);
+        row.appendChild(removeCell);
+
+        // Adiciona a linha na tabela
+        cartTableBody.appendChild(row);
+
         total += price * item.quantity;
     });
 
     totalDisplay.textContent = `Total: R$ ${total.toFixed(2)}`;
     submitOrderButton.style.display = cart.length > 0 ? 'block' : 'none';
 }
+
 
 // Função para remover um item do carrinho
 function removeFromCart(index) {
