@@ -1,13 +1,17 @@
 const database = [];
 const cart = JSON.parse(localStorage.getItem('cart')) || [];
 const submitOrderButton = document.getElementById('submitOrderButton');
-const name = document.querySelector("#name");
+const nameInput = document.querySelector("#name");
 const address = document.querySelector('#address');
 const phone = document.querySelector('#phone');
 
+document.querySelectorAll("#nameInput, #address, #phone").forEach(input =>{
+    input.addEventListener('input'. checkInput);
+})
 
+//checar se o pedido atende aos requisitos
 function checkInput(){
-    if(name.value.length > 3 && address.value.length > 5 &&  phone.value.length > 7) submitOrderButton.disabled = false
+    if(nameInput.value.length > 3 && address.value.length > 5 &&  phone.value.length > 7) submitOrderButton.disabled = false
     else submitOrderButton.disabled = true; 
 }
 
@@ -86,6 +90,7 @@ function addToCart(item, quantity) {
 
 // Função para atualizar a exibição do carrinho
 function updateCartDisplay() {
+    checkInput()
     const cartTableBody = document.querySelector('table tbody');
     const totalDisplay = document.getElementById('total');
 
@@ -132,7 +137,8 @@ function updateCartDisplay() {
 
     totalDisplay.textContent = `Total: R$ ${total.toFixed(2)}`;
     submitOrderButton.style.display = cart.length > 0 ? 'block' : 'none';
-}
+    checkInput();
+    if(cart.length === 0){ cartTableBody.innerHTML = `<tr><td colspan='4' class='text-center'> Seru Carrinho está vazio.</td></tr>`}}
 
 
 // Função para remover um item do carrinho
@@ -159,4 +165,48 @@ document.getElementById('addProductButton').addEventListener('click', function()
     } else {
         alert('Selecione um produto válido.');
     }
+});
+
+function sendOrderViaWhatsApp(){
+    const nameValue = nameInput.value;
+    const addressValue = address.value;
+    const phoneValue = phone.value;
+
+    if(cart.length === 0){
+        alert("Adicione pelo menos um item ao carrinho antes de enviar o pedido.")
+        return;
+    }
+
+    let message = `*Pedido de Delivery - Acacio Bebidas*%0A`;
+    message += `*Nome:* ${nameValue}%0A`;
+    message += `*Endereço:* ${addressValue}%0A`;
+    message += `*Telefone:* ${phoneValue}%0A`;
+    message += `*Itens do Pedido:*0A`
+
+    cart.forEach(item => {
+        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
+        message += `- ${item.Descrição} x${item.quantity} (R$ ${price.toFixed(2)} cada)%0A`;
+    });
+
+    let total = cart.reduce((sum, item) => {
+        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
+        return sum + price * item.quantity;
+    }, 0);
+
+    message += `%0A*Total do pedido: R$ ${total.toFixed(2)}*`;
+
+    // Número de telefone do destinatário com o código do país (no caso, +55 para o Brasil)
+    const whatsappNumber = "5584988989357";
+
+    // URL de envio para o WhatsApp
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+
+    // Redireciona o usuário para o WhatsApp
+    window.open(whatsappUrl, '_blank');
+}
+
+// Função para enviar o pedido quando o formulário for submetido
+document.getElementById('deliveryForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio tradicional do formulário
+    sendOrderViaWhatsApp(); // Chama a função para enviar via WhatsApp
 });
