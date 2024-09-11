@@ -1,7 +1,15 @@
 const database = [];
 const cart = JSON.parse(localStorage.getItem('cart')) || [];
 const submitOrderButton = document.getElementById('submitOrderButton');
+const name = document.querySelector("#name");
+const address = document.querySelector('#address');
+const phone = document.querySelector('#phone');
 
+
+function checkInput(){
+    if(name.value.length > 3 && address.value.length > 5 &&  phone.value.length > 7) submitOrderButton.disabled = false
+    else submitOrderButton.disabled = true; 
+}
 
 // Função para converter uma string de data no formato "dd-MM-yyyy" para um objeto Date
 function parseDate(dateString) {
