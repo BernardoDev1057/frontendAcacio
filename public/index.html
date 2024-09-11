@@ -20,7 +20,7 @@
             </div>
             <div class="form-group">
                 <label for="phone">Telefone:</label>
-                <input type= "tel" class="form-control" placeholder="Ex:88989357"  id="phone" required>
+                <input type= "tel" class="form-control" placeholder="Ex: 88989357"  id="phone" required>
             </div>
             <div class="form-group">
                 <label for="address">Endereço:</label>
@@ -32,26 +32,27 @@
                 <datalist id="itens"></datalist>
             </div>
 	    <div class="btn-group mt-1" role="group">
-	    	<button type="button" class="btn  btn-success">Adicionar Item</button>
-            	<button type="submit" class="btn btn-primary">Enviar Solicitação</button>
+	    	<button type="button" id="addProductButton" class="btn btn-success">Adicionar Item</button>
+            	<button type="submit" id="submitOrderButton"class="btn btn-primary send">Enviar Solicitação</button>
 	    </div>
         </form>
 	<h1 class="mt-1 text-center">Lista de Compras</h1>
 	<table class="table">
   	<thead>
    		<tr>
-      			<th scope="col">Produto</th>
-     			<th scope="col">Quantidade</th>
-      			<th scope="col">Total</th>
-      			<th scope="col">#</th>
-    		</tr>
+            <th scope="col">Produto</th>
+            <th scope="col">Quantidade</th>
+            <th scope="col">Total</th>
+            <th scope="col">#</th>
+        </tr>
  	 </thead>
+     <tbody></tbody>
+    </table>
+    <p id="total">Total: R$ 0.00</p>
     </div>
-    
     <!-- Script do jQuery e Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
     <script src="scripts.js" ></script>
 </body>
 </html>
