@@ -1,17 +1,168 @@
-/* styles.css */
+/* Estilos baseados em laranja e azul */
 body {
-    background-color: #f8f9fa;
+    background-color: #f0f8ff; /* Azul claro para o fundo */
+    color: #333; /* Cor padrão do texto */
+    font-family: Arial, sans-serif;
 }
 
-.container {
-    max-width: 600px;
-}
-
+/* Cabeçalhos */
 h1 {
-    margin-bottom: 30px;
+    color: #ff6700; /* Laranja vibrante para títulos */
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
+/* Botões */
 .btn-primary {
-    background-color: #007bff;
+    background-color: #007bff; /* Azul para o botão de envio */
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+    border-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #ff6700; /* Laranja para o botão de adicionar */
+    border-color: #ff6700;
+}
+
+.btn-success:hover {
+    background-color: #cc5500; /* Laranja mais escuro no hover */
+    border-color: #cc5500;
+}
+
+/* Formulário */
+.form-control {
+    border: 2px solid #007bff; /* Azul nas bordas dos campos de formulário */
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #ff6700; /* Laranja ao focar */
+    box-shadow: 0 0 5px rgba(255, 103, 0, 0.5);
+}
+
+/* Tabela sem bordas nas células do corpo */
+.table {
+    background-color: #ffffff;
+    border-collapse: collapse; /* Evitar bordas duplas */
+    width: 100%; /* Preencher o container */
+}
+
+.table thead th {
+    border-right: 1px solid #007bff; /* Borda vertical azul apenas no cabeçalho */
+    background-color: #ff6700; /* Fundo laranja no cabeçalho */
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.table thead th:last-child {
+    border-right: none; /* Remover a borda da última célula */
+}
+
+/* Estilo para o corpo da tabela */
+.table tbody td {
+    padding: 8px;
+    text-align: center;
+}
+
+#total {
+    background-color: #007bff; /* Azul igual ao título */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo do botão de promoção diária */
+#showDailyPromoButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #ff6700;
+    color: white;
     border: none;
+    font-size: 24px;
+    display: none;
+}
+/* Estilização do modal de promoções */
+#modalPromocao .modal-dialog {
+    max-width: 800px;
+}
+
+#modalPromocao .modal-content {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: none;
+}
+
+#modalPromocao .modal-header {
+    background-color: #ff8300; /* Laranja para destaque */
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#modalPromocao .modal-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#modalPromocao .btn-close {
+    filter: brightness(0) invert(1);
+}
+
+#modalPromocao .modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.produto-promocao {
+    text-align: center;
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.produto-promocao:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.produto-promocao img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.produto-promocao p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.produto-promocao strong {
+    color: #ff8300; /* Destaque para o preço promocional */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#modalPromocao .modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+#modalPromocao .btn-secondary {
+    background-color: #007bff; /* Azul para o botão de fechar */
+    color: white;
 }

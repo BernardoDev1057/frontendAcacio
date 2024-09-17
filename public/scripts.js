@@ -1,212 +1,218 @@
-const database = [];
-const cart = JSON.parse(localStorage.getItem('cart')) || [];
-const submitOrderButton = document.getElementById('submitOrderButton');
-const nameInput = document.querySelector("#name");
-const address = document.querySelector('#address');
-const phone = document.querySelector('#phone');
+    let estoque = [];
 
-document.querySelectorAll("#nameInput, #address, #phone").forEach(input =>{
-    input.addEventListener('input'. checkInput);
-})
+    // Função para carregar produtos
+    async function carregarProdutos() {
+        try {
+            const response = await fetch('estoque.json?date=' + new Date());  // Puxa o arquivo estoque.json
+            estoque = await response.json();  // Converte a resposta para JSON
+            const datalist = document.getElementById('itens');
+            const dataAtual = new Date();
 
-//checar se o pedido atende aos requisitos
-function checkInput(){
-    if(nameInput.value.length > 3 && address.value.length > 5 &&  phone.value.length > 7) submitOrderButton.disabled = false
-    else submitOrderButton.disabled = true; 
-}
+            // Iterar sobre os produtos no estoque
+            for (const idProduto in estoque) {
+                const produto = estoque[idProduto];
+                const option = document.createElement('option');
+                
+                const dataInicioProm = new Date(produto.DATA_INICIO_PROM);
+                const dataLimiteProm = new Date(produto.DATA_LIMITE_PROM);
 
-// Função para converter uma string de data no formato "dd-MM-yyyy" para um objeto Date
-function parseDate(dateString) {
-    const [day, month, year] = dateString.split('/').map(Number);
-    return new Date(year, month - 1, day);
-    }
-
-// Função para verificar se a data está dentro do intervalo
-function isDateWithinRange(dateToCheck, startDate, endDate) {
-    const date = parseDate(dateToCheck);
-    const start = parseDate(startDate);
-    const end = parseDate(endDate);
-
-    return date >= start && date <= end;
-}
-
-// Função para obter a data atual no formato "dd-MM-yyyy"
-function getCurrentDateFormatted() {
-    const now = new Date();
-    const day = String(now.getDate()).padStart(2, '0');
-    const month = String(now.getMonth() + 1).padStart(2, '0');
-    const year = now.getFullYear();
-    return `${day}/${month}/${year}`;
-}
-
-
-// Função para popular o datalist e a const database
-document.addEventListener("DOMContentLoaded", function() {
-    fetch('./estoque.json')
-        .then(response => response.json())
-        .then(data => {
-            let datalist = document.getElementById('itens');
-            let today = getCurrentDateFormatted();
-
-            data.forEach(item => {
-                let preco = typeof item["Preco Venda"] === 'string' 
-                    ? parseFloat(item["Preco Venda"].replace(',', '.')) 
-                    : item["Preco Venda"];
-
-                let precoPromocao = typeof item["Preco Prom."] === 'string' 
-                    ? parseFloat(item["Preco Prom."].replace(',', '.')) 
-                    : item["Preco Prom."];
-                let dataIniProm = item["Data Ini Prom"];
-                let dataLimProm = item["Data Lim. Prom."];
-
-                let option = document.createElement('option');
-                if (isDateWithinRange(today, dataIniProm, dataLimProm) && precoPromocao > 0) {
-                    option.value = `(${item.IdProduto}) ${item.Descrição} - de R$ ${preco.toFixed(2)} por R$ ${precoPromocao.toFixed(2)}`;
+                // Se o preço promocional for maior que 0 e a data estiver correta, adiciona "em oferta" ao nome do produto
+                if (produto.PRECO_PROMOCIONAL > 0 && dataAtual >= dataInicioProm && dataAtual <= dataLimiteProm) {
+                    option.textContent = `${produto.descricao} DE R$ ${produto.PRECO_VENDA} POR R$ ${produto.PRECO_PROMOCIONAL} (Em promoção)`;
                 } else {
-                    option.value = `(${item.IdProduto}) ${item.Descrição} - R$ ${preco.toFixed(2)}`;
+                    option.textContent = `${produto.descricao} - R$ ${produto.PRECO_VENDA}`;
                 }
-                datalist.appendChild(option); 
-                database.push({...item, precoVenda: preco, precoPromocao: precoPromocao}); // Armazenar como número
-            });
-        })
-        .catch(error => console.error('Erro ao carregar o JSON:', error));
 
-        updateCartDisplay()
-});
-// Função para adicionar um item ao carrinho
-function addToCart(item, quantity) {
-    const existingItem = cart.find(cartItem => cartItem.IdProduto === item.IdProduto);
-
-    if (existingItem) {
-        existingItem.quantity += quantity;
-    } else {
-        item.quantity = quantity;
-        cart.push(item);
-    }
-
-    localStorage.setItem('cart', JSON.stringify(cart));
-    updateCartDisplay();
-}
-
-// Função para atualizar a exibição do carrinho
-function updateCartDisplay() {
-    checkInput()
-    const cartTableBody = document.querySelector('table tbody');
-    const totalDisplay = document.getElementById('total');
-
-    cartTableBody.innerHTML = '';
-
-    let total = 0;
-
-    cart.forEach((item, index) => {
-        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
-
-        const row = document.createElement('tr');
-
-        // Coluna do Produto
-        const productCell = document.createElement('td');
-        productCell.textContent = item.Descrição;
-        row.appendChild(productCell);
-
-        // Coluna da Quantidade
-        const quantityCell = document.createElement('td');
-        quantityCell.textContent = item.quantity;
-        row.appendChild(quantityCell);
-
-        // Coluna do Total
-        const totalCell = document.createElement('td');
-        totalCell.textContent = `R$ ${(price * item.quantity).toFixed(2)}`;
-        row.appendChild(totalCell);
-
-        // Coluna do Botão de Remover
-        const removeCell = document.createElement('td');
-        const removeButton = document.createElement('button');
-        removeButton.className = 'btn btn-danger btn-sm';
-        removeButton.textContent = 'Remover';
-        removeButton.onclick = function() {
-            removeFromCart(index);
-        };
-        removeCell.appendChild(removeButton);
-        row.appendChild(removeCell);
-
-        // Adiciona a linha na tabela
-        cartTableBody.appendChild(row);
-
-        total += price * item.quantity;
-    });
-
-    totalDisplay.textContent = `Total: R$ ${total.toFixed(2)}`;
-    submitOrderButton.style.display = cart.length > 0 ? 'block' : 'none';
-    checkInput();
-    if(cart.length === 0){ cartTableBody.innerHTML = `<tr><td colspan='4' class='text-center'> Seru Carrinho está vazio.</td></tr>`}}
-
-
-// Função para remover um item do carrinho
-function removeFromCart(index) {
-    cart.splice(index, 1);
-    localStorage.setItem('cart', JSON.stringify(cart));
-    updateCartDisplay();
-}
-
-// Adicionar produto ao carrinho ao clicar no botão
-document.getElementById('addProductButton').addEventListener('click', function() {
-    const selectedValue = document.getElementById('produtos').value;
-    const selectedProductIndex = parseInt(selectedValue.match(/^\((\d+)\)/)?.[1], 10);
-    const selectedProduct = database.find(item => item.IdProduto === selectedProductIndex);
-
-    if (selectedProduct) {
-        const quantity = parseInt(prompt('Digite a quantidade desejada:'), 10);
-        if (quantity && !isNaN(quantity) && quantity > 0) {
-            addToCart(selectedProduct, quantity);
-            document.getElementById('produtos').value="";
-        } else {
-            alert('Quantidade inválida.');
+                // O valor do option será o ID do produto
+                option.value = produto.IDPRODUTO;
+                datalist.appendChild(option);
+            }
+        } catch (erro) {
+            console.error('Erro ao carregar o arquivo JSON:', erro);
         }
-    } else {
-        alert('Selecione um produto válido.');
-    }
-});
-
-function sendOrderViaWhatsApp(){
-    const nameValue = nameInput.value;
-    const addressValue = address.value;
-    const phoneValue = phone.value;
-
-    if(cart.length === 0){
-        alert("Adicione pelo menos um item ao carrinho antes de enviar o pedido.")
-        return;
     }
 
-    let message = `*Pedido de Delivery - Acacio Bebidas*%0A`;
-    message += `*Nome:* ${nameValue}%0A`;
-    message += `*Endereço:* ${addressValue}%0A`;
-    message += `*Telefone:* ${phoneValue}%0A`;
-    message += `*Itens do Pedido:*0A`
+    // Função para adicionar um produto ao carrinho
+    function adicionarProdutoAoCarrinho(idProduto, descricao, precoUnitario, quantidade) {
+        let carrinho = JSON.parse(localStorage.getItem('cart')) || {
+            inicio_pedido: new Date().toISOString(),
+            fim_pedido: null,
+            produtos: [],
+            nome: '',
+            endereco: '',
+            identificador_unico: gerarIdentificadorUnico()
+        };
 
-    cart.forEach(item => {
-        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
-        message += `- ${item.Descrição} x${item.quantity} (R$ ${price.toFixed(2)} cada)%0A`;
+        // Verificar se o produto já está no carrinho
+        const produtoExistente = carrinho.produtos.find(item => item.IDPRODUTO === idProduto);
+
+        if (produtoExistente) {
+            // Atualizar a quantidade e o total se o produto já estiver no carrinho
+            produtoExistente.quantidade += quantidade;
+            produtoExistente.total = produtoExistente.quantidade * produtoExistente.preco_unitario;
+        } else {
+            // Adicionar novo produto ao carrinho
+            carrinho.produtos.push({
+                IDPRODUTO: idProduto,
+                descricao: descricao,
+                quantidade: quantidade,
+                preco_unitario: precoUnitario,
+                total: quantidade * precoUnitario
+            });
+        }
+
+        // Salvar o carrinho atualizado no localStorage
+        localStorage.setItem('cart', JSON.stringify(carrinho));
+
+        // Atualizar a exibição do carrinho
+        exibirCarrinho();
+    }
+
+    // Função para gerar um identificador único
+    function gerarIdentificadorUnico() {
+        return 'ID' + Math.floor(Math.random() * 1000000);
+    }
+
+    // Função para exibir o carrinho de compras
+    function exibirCarrinho() {
+        const carrinho = JSON.parse(localStorage.getItem('cart')) || {
+            produtos: []
+        };
+        const tbody = document.querySelector('table tbody');
+        tbody.innerHTML = '';
+
+        let totalGeral = 0;
+
+        carrinho.produtos.forEach(produto => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${produto.descricao}</td>
+                <td>${produto.quantidade}</td>
+                <td>${produto.total.toFixed(2)}</td>
+                <td><button class="btn btn-danger btn-sm" onclick="removerProduto(${produto.IDPRODUTO})">Remover</button></td>
+            `;
+            tbody.appendChild(tr);
+
+            totalGeral += produto.total;
+        });
+
+        document.getElementById('total').textContent = `Total: R$ ${totalGeral.toFixed(2)}`;
+    }
+
+    // Função para remover um produto do carrinho
+    function removerProduto(idProduto) {
+        let carrinho = JSON.parse(localStorage.getItem('cart')) || {
+            produtos: []
+        };
+
+        carrinho.produtos = carrinho.produtos.filter(produto => produto.IDPRODUTO !== idProduto);
+
+        // Atualizar o carrinho no localStorage
+        localStorage.setItem('cart', JSON.stringify(carrinho));
+
+        // Atualizar a exibição do carrinho
+        exibirCarrinho();
+    }
+
+    // Função para capturar o produto selecionado
+    function capturarProdutoSelecionado() {
+        const inputProdutos = document.querySelector("#produtos");
+        const produtoSelecionado = inputProdutos.value;
+
+        if (!produtoSelecionado) { return; }
+
+        const produto = estoque[produtoSelecionado];
+        if (!produto) { return; }
+
+        // Limpar o campo de produto
+        inputProdutos.value = '';
+
+        // Exibir o modal para capturar a quantidade
+        exibirModalProduto(produto.IDPRODUTO, produto.descricao, produto.PRECO_VENDA);
+    }
+
+    // Função para exibir o modal do produto
+    function exibirModalProduto(idProduto, descricao, precoUnitario) {
+        const modalDescricao = document.getElementById('modalProdutoDescricao');
+        const modalPreco = document.getElementById('modalProdutoPreco');
+        const modalQuantidade = document.getElementById('modalQuantidade');
+        const modalAdicionarButton = document.getElementById('modalAdicionarButton');
+
+        if (!modalDescricao || !modalPreco || !modalQuantidade || !modalAdicionarButton) {
+            console.error('Um ou mais elementos do modal não foram encontrados.');
+            return;
+        }
+
+        // Atualizar o conteúdo do modal
+        modalDescricao.textContent = descricao;
+        modalPreco.textContent = `R$ ${precoUnitario.toFixed(2)}`;
+
+        // Mostrar o modal
+        const modal = new bootstrap.Modal(document.getElementById('modalProduto'));
+        modal.show();
+
+        // Configurar o evento do botão "Adicionar"
+        modalAdicionarButton.onclick = function () {
+            const quantidade = parseInt(modalQuantidade.value);
+            if (isNaN(quantidade) || quantidade <= 0) {
+                alert('Quantidade inválida.');
+                return;
+            }
+
+            adicionarProdutoAoCarrinho(idProduto, descricao, precoUnitario, quantidade);
+            modal.hide();
+        };
+    }
+
+    // Função para exibir produtos em promoção no modal
+    function exibirPromocoesModal() {
+    const dataAtual = new Date();
+    const modalPromocaoBody = document.getElementById('modalPromocaoBody');
+    modalPromocaoBody.innerHTML = ''; // Limpar o conteúdo anterior
+
+    // Iterar sobre os produtos e exibir os que estão em promoção
+    let promocaoEncontrada = false;
+    for (const idProduto in estoque) {
+        const produto = estoque[idProduto];
+        const dataInicioProm = new Date(produto.DATA_INICIO_PROM);
+        const dataLimiteProm = new Date(produto.DATA_LIMITE_PROM);
+
+        // Verificar se o produto está em promoção
+        if (produto.PRECO_PROMOCIONAL > 0 && dataAtual >= dataInicioProm && dataAtual <= dataLimiteProm) {
+            promocaoEncontrada = true;
+
+            // Criar um elemento para cada produto em promoção
+            const divProduto = document.createElement('div');
+            divProduto.classList.add('produto-promocao');
+            divProduto.innerHTML = `
+                <img src="img/${produto.IDPRODUTO}.png" alt="${produto.descricao}" class="img-fluid" style="width: 80%; margin-bottom: 10px;">
+                <p>${produto.descricao}</p>
+                <p>De R$ ${produto.PRECO_VENDA.toFixed(2)} por <strong>R$ ${produto.PRECO_PROMOCIONAL.toFixed(2)}</strong></p>
+            `;
+            modalPromocaoBody.appendChild(divProduto);
+        }
+    }
+
+    // Se não houver promoções, exibir uma mensagem
+    if (!promocaoEncontrada) {
+        modalPromocaoBody.innerHTML = '<p>Nenhuma promoção disponível no momento.</p>';
+    }
+
+    // Mostrar o modal
+    const modalPromocao = new bootstrap.Modal(document.getElementById('modalPromocao'));
+    modalPromocao.show();
+    }
+
+    // Chamar a função para exibir promoções após carregar produtos
+    carregarProdutos().then(() => {
+        exibirPromocoesModal();
     });
 
-    let total = cart.reduce((sum, item) => {
-        const price = item.precoPromocao > 0 ? item.precoPromocao : item.precoVenda;
-        return sum + price * item.quantity;
-    }, 0);
 
-    message += `%0A*Total do pedido: R$ ${total.toFixed(2)}*`;
 
-    // Número de telefone do destinatário com o código do país (no caso, +55 para o Brasil)
-    const whatsappNumber = "5584988989357";
+    // Capturador de evento quando o usuário clica em adicionar o produto
+    document.getElementById('addProductButton').addEventListener('click', capturarProdutoSelecionado);
 
-    // URL de envio para o WhatsApp
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
-
-    // Redireciona o usuário para o WhatsApp
-    window.open(whatsappUrl, '_blank');
-}
-
-// Função para enviar o pedido quando o formulário for submetido
-document.getElementById('deliveryForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede o envio tradicional do formulário
-    sendOrderViaWhatsApp(); // Chama a função para enviar via WhatsApp
-});
+    // Carregar produtos e exibir o carrinho ao carregar a página
+    carregarProdutos();
+    exibirCarrinho();
