@@ -4272,11 +4272,11 @@
     "872": {
         "descricao": "OLEO SOJA SOYA 900ML",
         "IDPRODUTO": 872,
-        "PRECO_VENDA": 7.99,
+        "PRECO_VENDA": 8.99,
         "IDSUBGRUPO_PRODUTO": 7,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 7.49,
+        "DATA_LIMITE_PROM": "2024-09-22",
+        "DATA_INICIO_PROM": "2024-09-18",
         "CODIGO_BARRA": "7891107101621"
     },
     "924": {
@@ -26909,6 +26909,16 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7500435187879"
     },
+    "4886": {
+        "descricao": "AGUA TONICA PETRA 350ML",
+        "IDPRODUTO": 4886,
+        "PRECO_VENDA": 4,
+        "IDSUBGRUPO_PRODUTO": 24,
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "1899-12-30",
+        "DATA_INICIO_PROM": "1899-12-30",
+        "CODIGO_BARRA": "7897395000431"
+    },
     "4887": {
         "descricao": "TODDYNHO LEVINHO 200ML",
         "IDPRODUTO": 4887,
@@ -28044,9 +28054,9 @@
         "IDPRODUTO": 5045,
         "PRECO_VENDA": 3.59,
         "IDSUBGRUPO_PRODUTO": 8,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 3.1,
+        "DATA_LIMITE_PROM": "2024-09-22",
+        "DATA_INICIO_PROM": "2024-09-18",
         "CODIGO_BARRA": "7891152802108"
     },
     "5046": {
@@ -42210,13 +42220,13 @@
         "CODIGO_BARRA": "7891962064048"
     },
     "8304": {
-        "descricao": "MOLHO KENKO BARBECUE 180ML 80ML",
+        "descricao": "MOLHO KENKO BARBECUE 180ML",
         "IDPRODUTO": 8304,
         "PRECO_VENDA": 7.99,
-        "IDSUBGRUPO_PRODUTO": 15,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "IDSUBGRUPO_PRODUTO": 10,
+        "PRECO_PROMOCIONAL": 5.99,
+        "DATA_LIMITE_PROM": "2024-09-23",
+        "DATA_INICIO_PROM": "2024-09-18",
         "CODIGO_BARRA": "7896007865802"
     },
     "8305": {
