@@ -208,11 +208,49 @@
         exibirPromocoesModal();
     });
 
-
-
     // Capturador de evento quando o usuário clica em adicionar o produto
     document.getElementById('addProductButton').addEventListener('click', capturarProdutoSelecionado);
 
     // Carregar produtos e exibir o carrinho ao carregar a página
     carregarProdutos();
     exibirCarrinho();
+
+
+    document.getElementById('submitOrderButton').addEventListener('click', function() {
+        // Pega as informações do carrinho do localStorage
+        let carrinho = JSON.parse(localStorage.getItem('cart'));
+
+        if (!carrinho || carrinho.produtos.length === 0) {
+            alert("Seu carrinho está vazio!");
+            return;
+        }
+
+        // Informações básicas do pedido
+        let nome = carrinho.nome;
+        let endereco = carrinho.endereco;
+        let produtos = carrinho.produtos;
+
+        // Monta a mensagem
+        let mensagem = `Pedido de ${nome}\nEndereço: ${endereco}\n\nItens do pedido:\n`;
+
+        // Adiciona os produtos à mensagem
+        produtos.forEach(produto => {
+            mensagem += `${produto.descricao} - Quantidade: ${produto.quantidade}, Total: R$${produto.total.toFixed(2)}\n`;
+        });
+
+        // Adiciona o total geral à mensagem
+        let totalGeral = produtos.reduce((acc, produto) => acc + produto.total, 0);
+        mensagem += `\nTotal geral: R$${totalGeral.toFixed(2)}\n`;
+
+        // Encode a mensagem para ser usada na URL do WhatsApp
+        let mensagemEncoded = encodeURIComponent(mensagem);
+
+        // Número do WhatsApp do destinatário (já no formato correto para WhatsApp)
+        let numeroWhatsApp = "5584988989357";  // Aqui está o número fornecido
+
+        // URL do WhatsApp com a mensagem
+        let urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensagemEncoded}`;
+
+        // Redireciona para o WhatsApp com a mensagem formatada
+        window.open(urlWhatsApp, '_blank');
+    });
