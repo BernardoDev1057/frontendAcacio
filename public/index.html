@@ -60,7 +60,7 @@
                     <p id="modalProdutoPreco">Preço unitário</p>
                     <div class="mb-3">
                         <label for="modalQuantidade" class="form-label">Quantidade</label>
-                        <input type="number" class="form-control" id="modalQuantidade" min="1" required>
+                        <input type="number" class="form-control" id="modalQuantidade" min="1" placeholder="1" required>
                     </div>
                     <p id="modalTotal">Total: R$ 0.00</p>
                 </div>
@@ -112,5 +112,33 @@
   <button type="button" class="btn btn-primary" onclick="exibirPromocoesModal()">Ver Promoções</button>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="scripts.js"></script>
+
+    <!--adicionar o modulo sdk para analitics
+    -->
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyC-4D-5eh0LnVPyt58faoNM-tKmVSaVJD8",
+          authDomain: "acaciobebidas-d6bd6.firebaseapp.com",
+          databaseURL: "https://acaciobebidas-d6bd6-default-rtdb.firebaseio.com",
+          projectId: "acaciobebidas-d6bd6",
+          storageBucket: "acaciobebidas-d6bd6.appspot.com",
+          messagingSenderId: "510637509123",
+          appId: "1:510637509123:web:67609ea8d14b77c22a5c36",
+          measurementId: "G-4HD7QHMEBQ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>

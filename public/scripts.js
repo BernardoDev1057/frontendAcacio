@@ -34,39 +34,50 @@
 
     // Função para adicionar um produto ao carrinho
     function adicionarProdutoAoCarrinho(idProduto, descricao, precoUnitario, quantidade) {
-        let carrinho = JSON.parse(localStorage.getItem('cart')) || {
-            inicio_pedido: new Date().toISOString(),
-            fim_pedido: null,
-            produtos: [],
-            nome: '',
-            endereco: '',
-            identificador_unico: gerarIdentificadorUnico()
-        };
+    let carrinho = JSON.parse(localStorage.getItem('cart')) || {
+        inicio_pedido: new Date().toISOString(),
+        fim_pedido: null,
+        produtos: [],
+        nome: '',
+        endereco: '',
+        identificador_unico: gerarIdentificadorUnico()
+    };
 
-        // Verificar se o produto já está no carrinho
-        const produtoExistente = carrinho.produtos.find(item => item.IDPRODUTO === idProduto);
+    // Verificar se o produto já está no carrinho
+    const produtoExistente = carrinho.produtos.find(item => item.IDPRODUTO === idProduto);
 
-        if (produtoExistente) {
-            // Atualizar a quantidade e o total se o produto já estiver no carrinho
-            produtoExistente.quantidade += quantidade;
-            produtoExistente.total = produtoExistente.quantidade * produtoExistente.preco_unitario;
-        } else {
-            // Adicionar novo produto ao carrinho
-            carrinho.produtos.push({
-                IDPRODUTO: idProduto,
-                descricao: descricao,
-                quantidade: quantidade,
-                preco_unitario: precoUnitario,
-                total: quantidade * precoUnitario
-            });
-        }
+    // Verificar se o produto está em promoção
+    const produto = estoque[idProduto];
+    const dataAtual = new Date();
+    const dataInicioProm = new Date(produto.DATA_INICIO_PROM);
+    const dataLimiteProm = new Date(produto.DATA_LIMITE_PROM);
 
-        // Salvar o carrinho atualizado no localStorage
-        localStorage.setItem('cart', JSON.stringify(carrinho));
-
-        // Atualizar a exibição do carrinho
-        exibirCarrinho();
+    let precoFinal = precoUnitario;
+    if (produto.PRECO_PROMOCIONAL > 0 && dataAtual >= dataInicioProm && dataAtual <= dataLimiteProm) {
+        precoFinal = produto.PRECO_PROMOCIONAL; // Usa o preço promocional
     }
+
+    if (produtoExistente) {
+        // Atualizar a quantidade e o total se o produto já estiver no carrinho
+        produtoExistente.quantidade += quantidade;
+        produtoExistente.total = produtoExistente.quantidade * produtoExistente.preco_unitario;
+    } else {
+        // Adicionar novo produto ao carrinho com o preço final (promocional ou normal)
+        carrinho.produtos.push({
+            IDPRODUTO: idProduto,
+            descricao: descricao,
+            quantidade: quantidade,
+            preco_unitario: precoFinal,
+            total: quantidade * precoFinal
+        });
+    }
+
+    // Salvar o carrinho atualizado no localStorage
+    localStorage.setItem('cart', JSON.stringify(carrinho));
+
+    // Atualizar a exibição do carrinho
+    exibirCarrinho();
+}
 
     // Função para gerar um identificador único
     function gerarIdentificadorUnico() {
@@ -133,35 +144,65 @@
 
     // Função para exibir o modal do produto
     function exibirModalProduto(idProduto, descricao, precoUnitario) {
-        const modalDescricao = document.getElementById('modalProdutoDescricao');
-        const modalPreco = document.getElementById('modalProdutoPreco');
-        const modalQuantidade = document.getElementById('modalQuantidade');
-        const modalAdicionarButton = document.getElementById('modalAdicionarButton');
+    const modalDescricao = document.getElementById('modalProdutoDescricao');
+    const modalPreco = document.getElementById('modalProdutoPreco');
+    const modalQuantidade = document.getElementById('modalQuantidade');
+    const modalTotal = document.getElementById('modalProdutoTotal'); // Adiciona o campo de total
+    const modalAdicionarButton = document.getElementById('modalAdicionarButton');
 
-        if (!modalDescricao || !modalPreco || !modalQuantidade || !modalAdicionarButton) {
-            console.error('Um ou mais elementos do modal não foram encontrados.');
+    if (!modalDescricao || !modalPreco || !modalQuantidade || !modalAdicionarButton || !modalTotal) {
+        console.error('Um ou mais elementos do modal não foram encontrados.');
+        return;
+    }
+
+    // Verificar se o produto está em promoção
+    const produto = estoque[idProduto];
+    const dataAtual = new Date();
+    const dataInicioProm = new Date(produto.DATA_INICIO_PROM);
+    const dataLimiteProm = new Date(produto.DATA_LIMITE_PROM);
+
+    let precoFinal = precoUnitario;
+    if (produto.PRECO_PROMOCIONAL > 0 && dataAtual >= dataInicioProm && dataAtual <= dataLimiteProm) {
+        precoFinal = produto.PRECO_PROMOCIONAL; // Usa o preço promocional
+    }
+
+    // Atualizar o conteúdo do modal com o preço unitário (promocional ou normal)
+    modalDescricao.textContent = descricao;
+    modalPreco.textContent = `Preço Unitário: R$ ${precoFinal.toFixed(2)}`;
+    modalQuantidade.value = 1;  // Define a quantidade inicial como 1
+
+    // Função para atualizar o valor total dinamicamente com base na quantidade
+    function atualizarTotal() {
+        const quantidade = parseInt(modalQuantidade.value);
+        if (!isNaN(quantidade) && quantidade > 0) {
+            const total = precoFinal * quantidade;
+            modalTotal.textContent = `Total: R$ ${total.toFixed(2)}`;
+        } else {
+            modalTotal.textContent = `Total: R$ 0.00`;
+        }
+    }
+
+    // Configura o evento para atualizar o total quando a quantidade mudar
+    modalQuantidade.addEventListener('input', atualizarTotal);
+
+    // Inicializa o valor total no modal
+    atualizarTotal();
+
+    // Mostrar o modal
+    const modal = new bootstrap.Modal(document.getElementById('modalProduto'));
+    modal.show();
+
+    // Configurar o evento do botão "Adicionar"
+    modalAdicionarButton.onclick = function () {
+        const quantidade = parseInt(modalQuantidade.value);
+        if (isNaN(quantidade) || quantidade <= 0) {
+            alert('Quantidade inválida.');
             return;
         }
 
-        // Atualizar o conteúdo do modal
-        modalDescricao.textContent = descricao;
-        modalPreco.textContent = `R$ ${precoUnitario.toFixed(2)}`;
-
-        // Mostrar o modal
-        const modal = new bootstrap.Modal(document.getElementById('modalProduto'));
-        modal.show();
-
-        // Configurar o evento do botão "Adicionar"
-        modalAdicionarButton.onclick = function () {
-            const quantidade = parseInt(modalQuantidade.value);
-            if (isNaN(quantidade) || quantidade <= 0) {
-                alert('Quantidade inválida.');
-                return;
-            }
-
-            adicionarProdutoAoCarrinho(idProduto, descricao, precoUnitario, quantidade);
-            modal.hide();
-        };
+        adicionarProdutoAoCarrinho(idProduto, descricao, precoFinal, quantidade);
+        modal.hide();
+    };
     }
 
     // Função para exibir produtos em promoção no modal

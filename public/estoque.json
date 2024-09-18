@@ -28514,9 +28514,9 @@
         "IDPRODUTO": 5124,
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 8,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 2.99,
+        "DATA_LIMITE_PROM": "2024-09-21",
+        "DATA_INICIO_PROM": "2024-09-18",
         "CODIGO_BARRA": "7891079013052"
     },
     "5125": {
@@ -41954,9 +41954,9 @@
         "IDPRODUTO": 8260,
         "PRECO_VENDA": 3.89,
         "IDSUBGRUPO_PRODUTO": 5,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 0.99,
+        "DATA_LIMITE_PROM": "2024-09-29",
+        "DATA_INICIO_PROM": "2024-09-18",
         "CODIGO_BARRA": "7897518200021"
     },
     "8261": {
