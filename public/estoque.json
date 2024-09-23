@@ -3164,9 +3164,9 @@
         "IDPRODUTO": 540,
         "PRECO_VENDA": 8.49,
         "IDSUBGRUPO_PRODUTO": 29,
-        "PRECO_PROMOCIONAL": 7.99,
-        "DATA_LIMITE_PROM": "2024-09-19",
-        "DATA_INICIO_PROM": "2024-09-12",
+        "PRECO_PROMOCIONAL": 4.99,
+        "DATA_LIMITE_PROM": "2024-09-22",
+        "DATA_INICIO_PROM": "2024-09-21",
         "CODIGO_BARRA": "7891991001342"
     },
     "541": {
@@ -3292,11 +3292,11 @@
     "577": {
         "descricao": "BUDWEISER LONG NECK 330ML",
         "IDPRODUTO": 577,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "2024-08-25",
-        "DATA_INICIO_PROM": "2023-11-24",
+        "PRECO_PROMOCIONAL": 4.99,
+        "DATA_LIMITE_PROM": "2024-09-22",
+        "DATA_INICIO_PROM": "2024-09-20",
         "CODIGO_BARRA": "7891991014762"
     },
     "580": {
@@ -5417,7 +5417,7 @@
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "78923874"
+        "CODIGO_BARRA": "78946224"
     },
     "1431": {
         "descricao": "LUCKY STRIKE MENTA",
@@ -5698,16 +5698,6 @@
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7898202610638"
-    },
-    "1522": {
-        "descricao": "CHEETOS REQUEIJAO 160G",
-        "IDPRODUTO": 1522,
-        "PRECO_VENDA": 6,
-        "IDSUBGRUPO_PRODUTO": 37,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7892840814809"
     },
     "1524": {
         "descricao": "TNT ZERO ACUCAR 269ML",
@@ -7910,7 +7900,7 @@
         "CODIGO_BARRA": "7896336006624"
     },
     "2188": {
-        "descricao": "PIRULITO SUPER POP",
+        "descricao": "PIRULITO POP",
         "IDPRODUTO": 2188,
         "PRECO_VENDA": 0.6,
         "IDSUBGRUPO_PRODUTO": 14,
@@ -22025,8 +22015,8 @@
         "PRECO_VENDA": 3.59,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 3.29,
-        "DATA_LIMITE_PROM": "2024-09-01",
-        "DATA_INICIO_PROM": "2024-08-20",
+        "DATA_LIMITE_PROM": "2024-09-23",
+        "DATA_INICIO_PROM": "2024-09-20",
         "CODIGO_BARRA": "7896045504831"
     },
     "4244": {
@@ -25194,9 +25184,9 @@
         "IDPRODUTO": 4651,
         "PRECO_VENDA": 13.49,
         "IDSUBGRUPO_PRODUTO": 23,
-        "PRECO_PROMOCIONAL": 11.99,
-        "DATA_LIMITE_PROM": "2024-09-15",
-        "DATA_INICIO_PROM": "2024-08-26",
+        "PRECO_PROMOCIONAL": 12.49,
+        "DATA_LIMITE_PROM": "2024-09-23",
+        "DATA_INICIO_PROM": "2024-09-20",
         "CODIGO_BARRA": "7898912925589"
     },
     "4654": {
@@ -25764,9 +25754,9 @@
         "IDPRODUTO": 4732,
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 4.49,
-        "DATA_LIMITE_PROM": "2024-07-07",
-        "DATA_INICIO_PROM": "2024-07-05",
+        "PRECO_PROMOCIONAL": 4.99,
+        "DATA_LIMITE_PROM": "2024-10-08",
+        "DATA_INICIO_PROM": "2024-09-23",
         "CODIGO_BARRA": "7891991297479"
     },
     "4733": {
@@ -26910,9 +26900,9 @@
         "CODIGO_BARRA": "7500435187879"
     },
     "4886": {
-        "descricao": "AGUA TONICA PETRA 350ML",
+        "descricao": "AGUA TONICA PETRA S AC 350ML",
         "IDPRODUTO": 4886,
-        "PRECO_VENDA": 4,
+        "PRECO_VENDA": 3.49,
         "IDSUBGRUPO_PRODUTO": 24,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -28394,9 +28384,9 @@
         "IDPRODUTO": 5103,
         "PRECO_VENDA": 13.49,
         "IDSUBGRUPO_PRODUTO": 23,
-        "PRECO_PROMOCIONAL": 11.99,
-        "DATA_LIMITE_PROM": "2024-09-15",
-        "DATA_INICIO_PROM": "2024-08-24",
+        "PRECO_PROMOCIONAL": 12.49,
+        "DATA_LIMITE_PROM": "2024-09-23",
+        "DATA_INICIO_PROM": "2024-09-20",
         "CODIGO_BARRA": "7898912925565"
     },
     "5104": {
@@ -28404,9 +28394,9 @@
         "IDPRODUTO": 5104,
         "PRECO_VENDA": 13.49,
         "IDSUBGRUPO_PRODUTO": 23,
-        "PRECO_PROMOCIONAL": 11.99,
-        "DATA_LIMITE_PROM": "2024-09-15",
-        "DATA_INICIO_PROM": "2024-08-24",
+        "PRECO_PROMOCIONAL": 12.49,
+        "DATA_LIMITE_PROM": "2024-09-23",
+        "DATA_INICIO_PROM": "2024-09-20",
         "CODIGO_BARRA": "7898912925596"
     },
     "5105": {
@@ -33227,7 +33217,7 @@
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "78919501"
+        "CODIGO_BARRA": "78944237"
     },
     "5863": {
         "descricao": "CORACAO DE FRANGO FRIATO 800G",
@@ -34802,7 +34792,7 @@
     "6089": {
         "descricao": "PIRULITO POP PCT C 50 und",
         "IDPRODUTO": 6089,
-        "PRECO_VENDA": 17.5,
+        "PRECO_VENDA": 18.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -37534,9 +37524,9 @@
         "IDPRODUTO": 6480,
         "PRECO_VENDA": 4.49,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 4.99,
+        "DATA_LIMITE_PROM": "2024-09-23",
+        "DATA_INICIO_PROM": "2024-09-20",
         "CODIGO_BARRA": "7891991295314"
     },
     "6483": {
@@ -39019,16 +39009,6 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7896005800027"
     },
-    "6692": {
-        "descricao": "MOLHO BARBECUE KENKO 220G",
-        "IDPRODUTO": 6692,
-        "PRECO_VENDA": 8.4,
-        "IDSUBGRUPO_PRODUTO": 5,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7896007865802"
-    },
     "6694": {
         "descricao": "MOLHO DE TOMATE MARATA MANJERICAO 300G",
         "IDPRODUTO": 6694,
@@ -39082,7 +39062,7 @@
     "6699": {
         "descricao": "CHA LEAO AMORA/MIRTILO/BAUNILHA 16G",
         "IDPRODUTO": 6699,
-        "PRECO_VENDA": 6,
+        "PRECO_VENDA": 11.19,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -40162,7 +40142,7 @@
     "6874": {
         "descricao": "PAO DE ALHO BOM TODO 400GR",
         "IDPRODUTO": 6874,
-        "PRECO_VENDA": 14.99,
+        "PRECO_VENDA": 13.99,
         "IDSUBGRUPO_PRODUTO": 8,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -41478,16 +41458,6 @@
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7895800151426"
-    },
-    "8190": {
-        "descricao": "AGUA TONICA ANTARCTICA  350ML",
-        "IDPRODUTO": 8190,
-        "PRECO_VENDA": 3.99,
-        "IDSUBGRUPO_PRODUTO": 14,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7891991000840"
     },
     "8191": {
         "descricao": "BUBBALOO UVA",
@@ -46154,7 +46124,7 @@
         "IDPRODUTO": 8921,
         "PRECO_VENDA": 84.99,
         "IDSUBGRUPO_PRODUTO": 25,
-        "PRECO_PROMOCIONAL": 69.9,
+        "PRECO_PROMOCIONAL": 84.9,
         "DATA_LIMITE_PROM": "2024-08-12",
         "DATA_INICIO_PROM": "2024-08-11",
         "CODIGO_BARRA": "5000265100519"

@@ -34,15 +34,14 @@
 
     // Função para adicionar um produto ao carrinho
     function adicionarProdutoAoCarrinho(idProduto, descricao, precoUnitario, quantidade) {
-    let carrinho = JSON.parse(localStorage.getItem('cart')) || {
-        inicio_pedido: new Date().toISOString(),
-        fim_pedido: null,
-        produtos: [],
-        nome: '',
-        endereco: '',
-        identificador_unico: gerarIdentificadorUnico()
-    };
-
+    	let carrinho = JSON.parse(localStorage.getItem('cart')) || {
+        	inicio_pedido: new Date().toISOString(),
+        	fim_pedido: null,
+        	produtos: [],
+        	nome: '',
+       		endereco: '',
+        	identificador_unico: gerarIdentificadorUnico()
+    	}; 
     // Verificar se o produto já está no carrinho
     const produtoExistente = carrinho.produtos.find(item => item.IDPRODUTO === idProduto);
 
@@ -149,11 +148,11 @@
     const modalQuantidade = document.getElementById('modalQuantidade');
     const modalTotal = document.getElementById('modalProdutoTotal'); // Adiciona o campo de total
     const modalAdicionarButton = document.getElementById('modalAdicionarButton');
-
+	/***********
     if (!modalDescricao || !modalPreco || !modalQuantidade || !modalAdicionarButton || !modalTotal) {
         console.error('Um ou mais elementos do modal não foram encontrados.');
         return;
-    }
+    } ***/
 
     // Verificar se o produto está em promoção
     const produto = estoque[idProduto];
