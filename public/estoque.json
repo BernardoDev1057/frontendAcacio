@@ -7644,9 +7644,9 @@
         "IDPRODUTO": 2149,
         "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 3.99,
-        "DATA_LIMITE_PROM": "2024-08-31",
-        "DATA_INICIO_PROM": "2024-06-20",
+        "PRECO_PROMOCIONAL": 3.49,
+        "DATA_LIMITE_PROM": "2024-10-18",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7898367983790"
     },
     "2151": {
@@ -16304,9 +16304,9 @@
         "IDPRODUTO": 3423,
         "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 6.99,
-        "DATA_LIMITE_PROM": "2024-09-15",
-        "DATA_INICIO_PROM": "2024-09-14",
+        "PRECO_PROMOCIONAL": 5.99,
+        "DATA_LIMITE_PROM": "2024-10-15",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7898904771767"
     },
     "3424": {
@@ -34249,16 +34249,6 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7896098903605"
     },
-    "6005": {
-        "descricao": "IMPERIO LAGER ALUMINIO 473ML",
-        "IDPRODUTO": 6005,
-        "PRECO_VENDA": 16.99,
-        "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7898915949919"
-    },
     "6007": {
         "descricao": "SEDA BB KING SIZE LARGER 110X44",
         "IDPRODUTO": 6007,
@@ -39349,16 +39339,6 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7898286565428"
     },
-    "6740": {
-        "descricao": "CAJUINA DORE 250ML",
-        "IDPRODUTO": 6740,
-        "PRECO_VENDA": 1.75,
-        "IDSUBGRUPO_PRODUTO": 29,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7897240900145"
-    },
     "6741": {
         "descricao": "SALAME ITALIANO SADIA 100GR",
         "IDPRODUTO": 6741,
@@ -40538,16 +40518,6 @@
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7898944856271"
-    },
-    "8032": {
-        "descricao": "BATON ALGODAO DOCE 16GGR",
-        "IDPRODUTO": 8032,
-        "PRECO_VENDA": 1.4,
-        "IDSUBGRUPO_PRODUTO": 37,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7891000388716"
     },
     "8034": {
         "descricao": "BATON ALGODAO DOCE BASTAO 16GR",
@@ -43189,16 +43159,6 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7891152801330"
     },
-    "8465": {
-        "descricao": "BEBIDA ALCOOLICA MISTA NINNOFF LEMON 900 ML",
-        "IDPRODUTO": 8465,
-        "PRECO_VENDA": 13.99,
-        "IDSUBGRUPO_PRODUTO": 23,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7897736407271"
-    },
     "8467": {
         "descricao": "MARGARINA QUALY C SAL 500G",
         "IDPRODUTO": 8467,
@@ -44058,16 +44018,6 @@
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7894561230197"
-    },
-    "8582": {
-        "descricao": "PAPEL REPORT PREMIUM 210X297 C/500F A4 1X1",
-        "IDPRODUTO": 8582,
-        "PRECO_VENDA": 34,
-        "IDSUBGRUPO_PRODUTO": 6000001,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7891191003733"
     },
     "8585": {
         "descricao": "INGREDIENTES P/ FEIJOADA KG",

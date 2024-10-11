@@ -225,7 +225,7 @@
             const divProduto = document.createElement('div');
             divProduto.classList.add('produto-promocao');
             divProduto.innerHTML = `
-                <img src="img/${produto.IDPRODUTO}.png" alt="${produto.descricao}" class="img-fluid" style="width: 80%;max-height:500px; margin-bottom: 10px;">
+                <img src="img/${produto.IDPRODUTO}.png" alt="${produto.descricao}" class="img-fluid" style="width: 80%;max-height:500px; margin-bottom: 10px;" alt="media">
                 <p>${produto.descricao}</p>
                 <p>De R$ ${produto.PRECO_VENDA.toFixed(2)} por <strong>R$ ${produto.PRECO_PROMOCIONAL.toFixed(2)}.</strong></p>
                 <p><center>Unidade.</center></p>
