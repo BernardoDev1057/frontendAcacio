@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://acaciobebidas-d6bd6.web.app/sitemap.xml
+
