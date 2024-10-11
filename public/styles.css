@@ -92,7 +92,7 @@ h1 {
 }
 /* Estilização do modal de promoções */
 #modalPromocao .modal-dialog {
-    max-width: 800px;
+    max-width: 90%;
 }
 
 #modalPromocao .modal-content {
@@ -127,7 +127,7 @@ h1 {
 
 .produto-promocao {
     text-align: center;
-    width: 45%;
+    width: 30%;
     margin-bottom: 20px;
     padding: 10px;
     background-color: #fff;

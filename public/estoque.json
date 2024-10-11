@@ -16305,7 +16305,7 @@
         "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-10-15",
+        "DATA_LIMITE_PROM": "2024-10-10",
         "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7898904771767"
     },
@@ -28430,7 +28430,7 @@
         "CODIGO_BARRA": "7898912925596"
     },
     "5105": {
-        "descricao": "COPO DE WHISKY CAVEIRA 265 ML",
+        "descricao": "COPO DE WHISKY CAVEIRA 265ML",
         "IDPRODUTO": 5105,
         "PRECO_VENDA": 11.99,
         "IDSUBGRUPO_PRODUTO": 10,
@@ -31542,7 +31542,7 @@
     "5585": {
         "descricao": "BATATA PRINGLES ORIGINAL 104GR",
         "IDPRODUTO": 5585,
-        "PRECO_VENDA": 9.99,
+        "PRECO_VENDA": 15.9,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 13.9,
         "DATA_LIMITE_PROM": "2024-11-30",
@@ -35272,7 +35272,7 @@
     "6152": {
         "descricao": "CARNE DE SOL COXAO MOLE KG",
         "IDPRODUTO": 6152,
-        "PRECO_VENDA": 40.9,
+        "PRECO_VENDA": 41.9,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -35760,7 +35760,7 @@
         "CODIGO_BARRA": "6236"
     },
     "6237": {
-        "descricao": "WHISKY OLD EIGHT 900 ML",
+        "descricao": "WHISKY OLD EIGHT 900ML",
         "IDPRODUTO": 6237,
         "PRECO_VENDA": 44.9,
         "IDSUBGRUPO_PRODUTO": 25,
@@ -43932,7 +43932,7 @@
     "8569": {
         "descricao": "CAPA CONTRA FILET GRILL BOV",
         "IDPRODUTO": 8569,
-        "PRECO_VENDA": 27.99,
+        "PRECO_VENDA": 32.9,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",

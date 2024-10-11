@@ -178,7 +178,7 @@
             modalTotal.textContent = `Total: R$ ${total.toFixed(2)}`;
         } else {
             modalTotal.textContent = `Total: R$ 0.00`;
-        }
+        }new Date()
     }
 
     // Configura o evento para atualizar o total quando a quantidade mudar
@@ -225,10 +225,10 @@
             const divProduto = document.createElement('div');
             divProduto.classList.add('produto-promocao');
             divProduto.innerHTML = `
-                <img src="img/${produto.IDPRODUTO}.png" alt="${produto.descricao}" class="img-fluid" style="width: 80%;max-height:500px; margin-bottom: 10px;" alt="media">
+                <img src="img/${produto.IDPRODUTO}.png" alt="${produto.descricao}" class="img-fluid" style="width: 80%;max-height:500px; margin-bottom: 10px;" alt=media">
                 <p>${produto.descricao}</p>
                 <p>De R$ ${produto.PRECO_VENDA.toFixed(2)} por <strong>R$ ${produto.PRECO_PROMOCIONAL.toFixed(2)}.</strong></p>
-                <p><center>Unidade.</center></p>
+                <p><center>UNIDADE.</center></p>
             `;
             modalPromocaoBody.appendChild(divProduto);
         }
