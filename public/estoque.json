@@ -55,7 +55,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-09-13",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-09-06",
         "CODIGO_BARRA": "7896002111034"
     },
@@ -65,7 +65,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-09-13",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-09-06",
         "CODIGO_BARRA": "7896002111508"
     },
@@ -75,7 +75,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-09-13",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-09-06",
         "CODIGO_BARRA": "7896002110983"
     },
@@ -85,7 +85,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-09-13",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-09-06",
         "CODIGO_BARRA": "7896002110419"
     },
@@ -95,7 +95,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-08-04",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-06-28",
         "CODIGO_BARRA": "7896002110457"
     },
@@ -1162,7 +1162,7 @@
     "145": {
         "descricao": "VINHO QUINTA DO MORGADO TINTO SUAVE CAB. SAUVIGNON 750ML",
         "IDPRODUTO": 145,
-        "PRECO_VENDA": 32,
+        "PRECO_VENDA": 34.89,
         "IDSUBGRUPO_PRODUTO": 20,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -1225,8 +1225,8 @@
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 20,
         "PRECO_PROMOCIONAL": 4.49,
-        "DATA_LIMITE_PROM": "2024-09-17",
-        "DATA_INICIO_PROM": "2024-08-20",
+        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_INICIO_PROM": "2024-10-04",
         "CODIGO_BARRA": "7898912925091"
     },
     "153": {
@@ -1402,7 +1402,7 @@
     "175": {
         "descricao": "ORLOFF 1L",
         "IDPRODUTO": 175,
-        "PRECO_VENDA": 34.99,
+        "PRECO_VENDA": 37.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -1440,9 +1440,9 @@
         "CODIGO_BARRA": "7898912925404"
     },
     "184": {
-        "descricao": "SKY VODKA 980ML",
+        "descricao": "VODKA SKYY 980ML",
         "IDPRODUTO": 184,
-        "PRECO_VENDA": 49.9,
+        "PRECO_VENDA": 52.99,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -1482,7 +1482,7 @@
     "189": {
         "descricao": "SMIRNOFF ICE 275ML",
         "IDPRODUTO": 189,
-        "PRECO_VENDA": 7.99,
+        "PRECO_VENDA": 9.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -2325,7 +2325,7 @@
         "PRECO_VENDA": 86.9,
         "IDSUBGRUPO_PRODUTO": 25,
         "PRECO_PROMOCIONAL": 84.9,
-        "DATA_LIMITE_PROM": "2024-09-22",
+        "DATA_LIMITE_PROM": "2024-10-31",
         "DATA_INICIO_PROM": "2024-07-19",
         "CODIGO_BARRA": "5000267013602"
     },
@@ -3072,7 +3072,7 @@
     "529": {
         "descricao": "DORE COLA 2L",
         "IDPRODUTO": 529,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 29,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "2023-11-26",
@@ -3082,7 +3082,7 @@
     "530": {
         "descricao": "DORE GUARANA 2L",
         "IDPRODUTO": 530,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 29,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "2023-11-26",
@@ -3092,7 +3092,7 @@
     "531": {
         "descricao": "DORE LARANJA 2L",
         "IDPRODUTO": 531,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 29,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "2023-11-26",
@@ -3214,9 +3214,9 @@
         "IDPRODUTO": 557,
         "PRECO_VENDA": 2.99,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 2.49,
+        "DATA_LIMITE_PROM": "2024-10-22",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7891991010023"
     },
     "561": {
@@ -3282,7 +3282,7 @@
     "576": {
         "descricao": "BUDWEISER LATA 350ML",
         "IDPRODUTO": 576,
-        "PRECO_VENDA": 3.99,
+        "PRECO_VENDA": 4.09,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 3.75,
         "DATA_LIMITE_PROM": "2024-07-22",
@@ -3294,8 +3294,8 @@
         "IDPRODUTO": 577,
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 4.99,
-        "DATA_LIMITE_PROM": "2024-09-22",
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "2024-09-28",
         "DATA_INICIO_PROM": "2024-09-20",
         "CODIGO_BARRA": "7891991014762"
     },
@@ -3314,9 +3314,9 @@
         "IDPRODUTO": 584,
         "PRECO_VENDA": 2.99,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 2.69,
-        "DATA_LIMITE_PROM": "2024-09-16",
-        "DATA_INICIO_PROM": "2024-09-13",
+        "PRECO_PROMOCIONAL": 2.75,
+        "DATA_LIMITE_PROM": "2024-10-13",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7898904771606"
     },
     "588": {
@@ -3530,7 +3530,7 @@
         "CODIGO_BARRA": "7896433641025"
     },
     "658": {
-        "descricao": "NISSIN VITARELLA CARNE 85G",
+        "descricao": "NISSIN VITARELLA CARNE 74,3G",
         "IDPRODUTO": 658,
         "PRECO_VENDA": 1.75,
         "IDSUBGRUPO_PRODUTO": 10,
@@ -3605,7 +3605,7 @@
         "PRECO_VENDA": 7.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 6.99,
-        "DATA_LIMITE_PROM": "2024-09-10",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-08-20",
         "CODIGO_BARRA": "7896051130055"
     },
@@ -3965,8 +3965,8 @@
         "PRECO_VENDA": 2.49,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 1.79,
-        "DATA_LIMITE_PROM": "2024-09-01",
-        "DATA_INICIO_PROM": "2024-08-20",
+        "DATA_LIMITE_PROM": "2024-09-30",
+        "DATA_INICIO_PROM": "2024-09-16",
         "CODIGO_BARRA": "7896213005900"
     },
     "781": {
@@ -4292,7 +4292,7 @@
     "927": {
         "descricao": "CAFE SANTA CLARA ALMOFADA TRADICIONAL  250G",
         "IDPRODUTO": 927,
-        "PRECO_VENDA": 11.49,
+        "PRECO_VENDA": 12.49,
         "IDSUBGRUPO_PRODUTO": 35,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -4582,7 +4582,7 @@
     "1042": {
         "descricao": "SPRITE LATA 350ML",
         "IDPRODUTO": 1042,
-        "PRECO_VENDA": 2.99,
+        "PRECO_VENDA": 2.59,
         "IDSUBGRUPO_PRODUTO": 29,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -4952,7 +4952,7 @@
     "1240": {
         "descricao": "BATON BRANCO 16G",
         "IDPRODUTO": 1240,
-        "PRECO_VENDA": 1.4,
+        "PRECO_VENDA": 1.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -4962,7 +4962,7 @@
     "1241": {
         "descricao": "BATON PRETO",
         "IDPRODUTO": 1241,
-        "PRECO_VENDA": 1.4,
+        "PRECO_VENDA": 1.99,
         "IDSUBGRUPO_PRODUTO": 37,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -4972,7 +4972,7 @@
     "1243": {
         "descricao": "KINDER JOY ROSA 20G",
         "IDPRODUTO": 1243,
-        "PRECO_VENDA": 8.49,
+        "PRECO_VENDA": 9.49,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5002,7 +5002,7 @@
     "1247": {
         "descricao": "SNICKERS 45G",
         "IDPRODUTO": 1247,
-        "PRECO_VENDA": 3.5,
+        "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "2023-11-27",
@@ -5012,7 +5012,7 @@
     "1251": {
         "descricao": "TWIX 40G",
         "IDPRODUTO": 1251,
-        "PRECO_VENDA": 3.99,
+        "PRECO_VENDA": 4.7,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5432,7 +5432,7 @@
     "1432": {
         "descricao": "CIGARRO UND",
         "IDPRODUTO": 1432,
-        "PRECO_VENDA": 0.5,
+        "PRECO_VENDA": 0.7,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5674,7 +5674,7 @@
         "IDPRODUTO": 1514,
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 0,
+        "PRECO_PROMOCIONAL": 4.99,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7898367980010"
@@ -5802,7 +5802,7 @@
     "1552": {
         "descricao": "CAIXA DE BOMBOM GAROTO 250G",
         "IDPRODUTO": 1552,
-        "PRECO_VENDA": 11.49,
+        "PRECO_VENDA": 12.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "2023-12-29",
@@ -5952,7 +5952,7 @@
     "1601": {
         "descricao": "EISENBAHN PALE ALE 355ML",
         "IDPRODUTO": 1601,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5962,7 +5962,7 @@
     "1602": {
         "descricao": "EISENBAHN WEIZENBIER 355ML",
         "IDPRODUTO": 1602,
-        "PRECO_VENDA": 4,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -6592,7 +6592,7 @@
     "1801": {
         "descricao": "M&MS 45G",
         "IDPRODUTO": 1801,
-        "PRECO_VENDA": 3.99,
+        "PRECO_VENDA": 4.4,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -8672,7 +8672,7 @@
     "2307": {
         "descricao": "CORONITA 210ML",
         "IDPRODUTO": 2307,
-        "PRECO_VENDA": 3.49,
+        "PRECO_VENDA": 5.25,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -8974,15 +8974,15 @@
         "IDPRODUTO": 2347,
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 5.99,
+        "DATA_LIMITE_PROM": "2024-09-30",
+        "DATA_INICIO_PROM": "2024-09-23",
         "CODIGO_BARRA": "7896002110471"
     },
     "2348": {
         "descricao": "BUDWEISER 600ML",
         "IDPRODUTO": 2348,
-        "PRECO_VENDA": 6.49,
+        "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -9202,7 +9202,7 @@
     "2378": {
         "descricao": "PASTA DE ALHO 200G",
         "IDPRODUTO": 2378,
-        "PRECO_VENDA": 4.99,
+        "PRECO_VENDA": 5.25,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -9762,7 +9762,7 @@
     "2447": {
         "descricao": "COOKIE CLASSIC NESTLE 60G",
         "IDPRODUTO": 2447,
-        "PRECO_VENDA": 3.25,
+        "PRECO_VENDA": 2.99,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -10280,7 +10280,7 @@
         "CODIGO_BARRA": "7500435132640"
     },
     "2540": {
-        "descricao": "ABS.ALWAYS S/ ABAS SECA C 8UND",
+        "descricao": "ABS. ALWAYS S/ ABAS SECA C 8UND",
         "IDPRODUTO": 2540,
         "PRECO_VENDA": 4.99,
         "IDSUBGRUPO_PRODUTO": 5,
@@ -11262,7 +11262,7 @@
     "2697": {
         "descricao": "BATON CREME DUO 16G",
         "IDPRODUTO": 2697,
-        "PRECO_VENDA": 1.4,
+        "PRECO_VENDA": 1.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -11892,7 +11892,7 @@
     "2779": {
         "descricao": "COPO DESCARTAVEL TOTALPLAST 150ML",
         "IDPRODUTO": 2779,
-        "PRECO_VENDA": 4.99,
+        "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 37,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -12002,7 +12002,7 @@
     "2792": {
         "descricao": "DORE LIMAO 2L",
         "IDPRODUTO": 2792,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 29,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "2023-11-26",
@@ -12702,7 +12702,7 @@
     "2896": {
         "descricao": "BAYGON ACAO TOTAL 360ML",
         "IDPRODUTO": 2896,
-        "PRECO_VENDA": 13.99,
+        "PRECO_VENDA": 14.49,
         "IDSUBGRUPO_PRODUTO": 3,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -12855,7 +12855,7 @@
         "PRECO_VENDA": 2.49,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 1.79,
-        "DATA_LIMITE_PROM": "2024-09-01",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-08-20",
         "CODIGO_BARRA": "7896213005887"
     },
@@ -12972,7 +12972,7 @@
     "2930": {
         "descricao": "ARROZ EMOCOES PARBOILIZADO 1KG",
         "IDPRODUTO": 2930,
-        "PRECO_VENDA": 7.25,
+        "PRECO_VENDA": 7.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -14010,9 +14010,9 @@
         "CODIGO_BARRA": "7891141015267"
     },
     "3081": {
-        "descricao": "EISENBAHN AMERICAN IPA LONG NECK 355ML",
+        "descricao": "EISENBAHN  IPA LONG NECK 355ML",
         "IDPRODUTO": 3081,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -14032,7 +14032,7 @@
     "3083": {
         "descricao": "COBERTURA P/ SORVETE CHOCOLATE 300G",
         "IDPRODUTO": 3083,
-        "PRECO_VENDA": 6.99,
+        "PRECO_VENDA": 7.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -14310,7 +14310,7 @@
         "CODIGO_BARRA": "7891000099995"
     },
     "3126": {
-        "descricao": "CUMBUCA ULTRACOPOS 18",
+        "descricao": "PRATO FUNDO ULTRACOPOS 18",
         "IDPRODUTO": 3126,
         "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 37,
@@ -14772,7 +14772,7 @@
     "3197": {
         "descricao": "SKOL PURO MALTE 350ML",
         "IDPRODUTO": 3197,
-        "PRECO_VENDA": 3.29,
+        "PRECO_VENDA": 3.19,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 2.5,
         "DATA_LIMITE_PROM": "2024-06-14",
@@ -15542,7 +15542,7 @@
     "3304": {
         "descricao": "DESODORANTE NIVEA MEN BLACK WHITE 150ML",
         "IDPRODUTO": 3304,
-        "PRECO_VENDA": 13.49,
+        "PRECO_VENDA": 13.89,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -15552,7 +15552,7 @@
     "3305": {
         "descricao": "DESODORANTE NIVEA INVISIBLE 50ML",
         "IDPRODUTO": 3305,
-        "PRECO_VENDA": 8.39,
+        "PRECO_VENDA": 9.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -15582,7 +15582,7 @@
     "3308": {
         "descricao": "DESODORANTE NIVEA MEN DRY IMPACT 50ML",
         "IDPRODUTO": 3308,
-        "PRECO_VENDA": 8.39,
+        "PRECO_VENDA": 9.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -16312,7 +16312,7 @@
     "3424": {
         "descricao": "AGUA CRYSTAL 500ML",
         "IDPRODUTO": 3424,
-        "PRECO_VENDA": 1.89,
+        "PRECO_VENDA": 1.99,
         "IDSUBGRUPO_PRODUTO": 24,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -16332,7 +16332,7 @@
     "3426": {
         "descricao": "BARRA CHOCOLATE NESTLE CLASSIC M. AMARGO 80G",
         "IDPRODUTO": 3426,
-        "PRECO_VENDA": 6.75,
+        "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -16560,7 +16560,7 @@
         "CODIGO_BARRA": "070847033301"
     },
     "3458": {
-        "descricao": "BISC. BONO TORTA LIMAO 126G",
+        "descricao": "BISCOITO BONO TORTA LIMAO 126G",
         "IDPRODUTO": 3458,
         "PRECO_VENDA": 3.49,
         "IDSUBGRUPO_PRODUTO": 14,
@@ -16920,14 +16920,14 @@
         "CODIGO_BARRA": "5010093501501"
     },
     "3502": {
-        "descricao": "BARRA DE CHOCOLATE CRUNCH 90G",
+        "descricao": "BARRA DE CHOCOLATE CRUNCH NEST/GAROTO 80G",
         "IDPRODUTO": 3502,
-        "PRECO_VENDA": 6.75,
+        "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7891000277072"
+        "CODIGO_BARRA": "7891000397107"
     },
     "3503": {
         "descricao": "BARRA DE CHOCOLATE LAKA BRANCO 90G",
@@ -17232,7 +17232,7 @@
     "3544": {
         "descricao": "HEINEKEN 269ML",
         "IDPRODUTO": 3544,
-        "PRECO_VENDA": 4.49,
+        "PRECO_VENDA": 4.75,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -17472,7 +17472,7 @@
     "3578": {
         "descricao": "ALPINO CHOCOLATE 85G",
         "IDPRODUTO": 3578,
-        "PRECO_VENDA": 6.75,
+        "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -17960,14 +17960,14 @@
         "CODIGO_BARRA": "7891079000434"
     },
     "3653": {
-        "descricao": "WAFER BAUDUCCO  BRIGADEIRO 70G",
+        "descricao": "WAFER VITARELLA  BRIGADEIRO 80G",
         "IDPRODUTO": 3653,
-        "PRECO_VENDA": 2.25,
+        "PRECO_VENDA": 1.99,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7891962054575"
+        "CODIGO_BARRA": "7896213006051"
     },
     "3654": {
         "descricao": "WAFER BAUDUCCO  CHOCOLATE 70G",
@@ -17989,15 +17989,25 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7891962071749"
     },
+    "3657": {
+        "descricao": "ICE LEEV ABACAXI HORTELA 275ML",
+        "IDPRODUTO": 3657,
+        "PRECO_VENDA": 6.99,
+        "IDSUBGRUPO_PRODUTO": 23,
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "1899-12-30",
+        "DATA_INICIO_PROM": "1899-12-30",
+        "CODIGO_BARRA": "7898738660367"
+    },
     "3659": {
-        "descricao": "COLHER STRAWPLAST SOBREMESA C/50",
+        "descricao": "COLHER DESCARTAVEL SOBREMESA ULTRA C/50",
         "IDPRODUTO": 3659,
         "PRECO_VENDA": 2.99,
         "IDSUBGRUPO_PRODUTO": 5,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7898202616210"
+        "CODIGO_BARRA": "7898339100514"
     },
     "3660": {
         "descricao": "FINI GIGANTE TWISTER 27G",
@@ -18082,7 +18092,7 @@
     "3671": {
         "descricao": "MUCILON ARROZ E AVEIA 180GR",
         "IDPRODUTO": 3671,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 5.29,
         "DATA_LIMITE_PROM": "2024-09-10",
@@ -18182,7 +18192,7 @@
     "3690": {
         "descricao": "MUCILON MULTICEREAIS 180GR",
         "IDPRODUTO": 3690,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 5.29,
         "DATA_LIMITE_PROM": "2024-09-10",
@@ -18464,8 +18474,8 @@
         "IDPRODUTO": 3733,
         "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 2.99,
-        "DATA_LIMITE_PROM": "2024-09-22",
+        "PRECO_PROMOCIONAL": 2.66,
+        "DATA_LIMITE_PROM": "2024-10-05",
         "DATA_INICIO_PROM": "2024-09-13",
         "CODIGO_BARRA": "7891991294942"
     },
@@ -18662,7 +18672,7 @@
     "3758": {
         "descricao": "DORE UVA 2L",
         "IDPRODUTO": 3758,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 29,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "2023-11-26",
@@ -18842,7 +18852,7 @@
     "3777": {
         "descricao": "OVOS",
         "IDPRODUTO": 3777,
-        "PRECO_VENDA": 0.6,
+        "PRECO_VENDA": 0.65,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -19092,7 +19102,7 @@
     "3817": {
         "descricao": "DESODORANTE NIVEA BLACK WHITE FEMININO 150ML",
         "IDPRODUTO": 3817,
-        "PRECO_VENDA": 13.49,
+        "PRECO_VENDA": 13.89,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -19172,7 +19182,7 @@
     "3829": {
         "descricao": "COBERTURA P/ SORVETE MORANGO 300G",
         "IDPRODUTO": 3829,
-        "PRECO_VENDA": 6.99,
+        "PRECO_VENDA": 7.49,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -19342,7 +19352,7 @@
     "3863": {
         "descricao": "M&MS AMENDOIN 45G",
         "IDPRODUTO": 3863,
-        "PRECO_VENDA": 3.99,
+        "PRECO_VENDA": 4.4,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -20630,7 +20640,7 @@
         "CODIGO_BARRA": "7891000289907"
     },
     "4056": {
-        "descricao": "BISCOITO  BONO CHOCOLATE 90GR",
+        "descricao": "BISCOITO BONO CHOCOLATE 90G",
         "IDPRODUTO": 4056,
         "PRECO_VENDA": 3.49,
         "IDSUBGRUPO_PRODUTO": 15,
@@ -21029,10 +21039,20 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7891000318614"
     },
+    "4109": {
+        "descricao": "BISC WAFER GALAK 110G",
+        "IDPRODUTO": 4109,
+        "PRECO_VENDA": 4.49,
+        "IDSUBGRUPO_PRODUTO": 15,
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "2024-09-23",
+        "DATA_INICIO_PROM": "2024-09-23",
+        "CODIGO_BARRA": "7891000372548"
+    },
     "4110": {
         "descricao": "BARRA DE CHOCOLATE GALAK 80G",
         "IDPRODUTO": 4110,
-        "PRECO_VENDA": 6.75,
+        "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -21212,7 +21232,7 @@
     "4129": {
         "descricao": "AGUA CRYSTAL 1.5L",
         "IDPRODUTO": 4129,
-        "PRECO_VENDA": 3.75,
+        "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 24,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -23242,7 +23262,7 @@
     "4408": {
         "descricao": "SMIRNOFF ICE LATA 269ML",
         "IDPRODUTO": 4408,
-        "PRECO_VENDA": 8,
+        "PRECO_VENDA": 8.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -23782,7 +23802,7 @@
     "4478": {
         "descricao": "DESODORANTE NIVEA PROTECT & CARE 150ML",
         "IDPRODUTO": 4478,
-        "PRECO_VENDA": 13.49,
+        "PRECO_VENDA": 13.89,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -23792,7 +23812,7 @@
     "4479": {
         "descricao": "DESODORANTE NIVEA MEN DRY IMPACT 150ML",
         "IDPRODUTO": 4479,
-        "PRECO_VENDA": 13.49,
+        "PRECO_VENDA": 13.89,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -23962,7 +23982,7 @@
     "4500": {
         "descricao": "AGUA CRYSTAL C/GAS 500ML",
         "IDPRODUTO": 4500,
-        "PRECO_VENDA": 2.25,
+        "PRECO_VENDA": 2.49,
         "IDSUBGRUPO_PRODUTO": 24,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -24362,7 +24382,7 @@
     "4555": {
         "descricao": "SNICKERS PE DE MOLEQUE 42G",
         "IDPRODUTO": 4555,
-        "PRECO_VENDA": 3.5,
+        "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -24529,6 +24549,16 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7898904046032"
     },
+    "4575": {
+        "descricao": "ICE LEEV MACA VERDE 275ML",
+        "IDPRODUTO": 4575,
+        "PRECO_VENDA": 6.99,
+        "IDSUBGRUPO_PRODUTO": 30,
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "1899-12-30",
+        "DATA_INICIO_PROM": "1899-12-30",
+        "CODIGO_BARRA": "7898738660350"
+    },
     "4576": {
         "descricao": "IMPERIO GOLD 269ML",
         "IDPRODUTO": 4576,
@@ -24685,7 +24715,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-09-13",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-09-06",
         "CODIGO_BARRA": "7896002111706"
     },
@@ -24942,7 +24972,7 @@
     "4621": {
         "descricao": "SNICKERS DARK 42G",
         "IDPRODUTO": 4621,
-        "PRECO_VENDA": 3.25,
+        "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -25754,8 +25784,8 @@
         "IDPRODUTO": 4732,
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 4.99,
-        "DATA_LIMITE_PROM": "2024-10-08",
+        "PRECO_PROMOCIONAL": 4.75,
+        "DATA_LIMITE_PROM": "2024-10-01",
         "DATA_INICIO_PROM": "2024-09-23",
         "CODIGO_BARRA": "7891991297479"
     },
@@ -26782,7 +26812,7 @@
     "4871": {
         "descricao": "ESTRELLA GALICIA ZERO LATA 330ML",
         "IDPRODUTO": 4871,
-        "PRECO_VENDA": 6.25,
+        "PRECO_VENDA": 5.89,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -26802,7 +26832,7 @@
     "4874": {
         "descricao": "MISTURA DE LEITE MOCOCA 200GR",
         "IDPRODUTO": 4874,
-        "PRECO_VENDA": 2.49,
+        "PRECO_VENDA": 2.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -26815,7 +26845,7 @@
         "PRECO_VENDA": 2.89,
         "IDSUBGRUPO_PRODUTO": 8,
         "PRECO_PROMOCIONAL": 2.09,
-        "DATA_LIMITE_PROM": "2024-09-10",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-08-20",
         "CODIGO_BARRA": "7898230897667"
     },
@@ -27222,7 +27252,7 @@
     "4918": {
         "descricao": "BOLACHA MANTEIGA DO SERTAO JUCURUTU 250 G",
         "IDPRODUTO": 4918,
-        "PRECO_VENDA": 6.49,
+        "PRECO_VENDA": 6.29,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -27270,14 +27300,14 @@
         "CODIGO_BARRA": "7898136975827"
     },
     "4931": {
-        "descricao": "BARRA CHOCOLATE GAROTO  ALO DOCURA 80gr",
+        "descricao": "BARRA CHOCOLATE NESTLE SUFLAIR DUO 80GR",
         "IDPRODUTO": 4931,
-        "PRECO_VENDA": 6.49,
+        "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7891008116724"
+        "CODIGO_BARRA": "7891000329665"
     },
     "4932": {
         "descricao": "BARRA DE CHOCOLATE GAROTO OPERETA 90 G",
@@ -28292,7 +28322,7 @@
     "5088": {
         "descricao": "OLEO DE PEROBA 100ML",
         "IDPRODUTO": 5088,
-        "PRECO_VENDA": 10.99,
+        "PRECO_VENDA": 9.69,
         "IDSUBGRUPO_PRODUTO": 3,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -28922,7 +28952,7 @@
     "5184": {
         "descricao": "FARINHA TRIGO FINNA TIPO 1 VITAMINADA 1KG",
         "IDPRODUTO": 5184,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -28940,7 +28970,7 @@
         "CODIGO_BARRA": "7896038300228"
     },
     "5188": {
-        "descricao": "ACHOC  ITALAKINHO 200ML",
+        "descricao": "ACHOC ITALAKINHO 200ML",
         "IDPRODUTO": 5188,
         "PRECO_VENDA": 1.69,
         "IDSUBGRUPO_PRODUTO": 22,
@@ -30270,14 +30300,14 @@
         "CODIGO_BARRA": "78902589"
     },
     "5381": {
-        "descricao": "PASTA DE ALHO SADIO 200G",
+        "descricao": "PURO ALHO SADIO 200G",
         "IDPRODUTO": 5381,
         "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 7,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7899518200551"
+        "CODIGO_BARRA": "7897518225086"
     },
     "5383": {
         "descricao": "PACOQUINHA KIGAROT 15 G",
@@ -30302,7 +30332,7 @@
     "5386": {
         "descricao": "M&M CRISPY 35GR",
         "IDPRODUTO": 5386,
-        "PRECO_VENDA": 3.99,
+        "PRECO_VENDA": 4.4,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -31020,14 +31050,14 @@
         "CODIGO_BARRA": "7898912925428"
     },
     "5505": {
-        "descricao": "PROT SOLAR NIVEA FPS 50 100ML",
+        "descricao": "PROTETOR SOLAR NIVEA FPS 50 200ML",
         "IDPRODUTO": 5505,
-        "PRECO_VENDA": 41.99,
+        "PRECO_VENDA": 62.99,
         "IDSUBGRUPO_PRODUTO": 35,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "4005900687265"
+        "CODIGO_BARRA": "4005808555345"
     },
     "5506": {
         "descricao": "PROT SOLAR FPS 30 100ML",
@@ -31272,7 +31302,7 @@
     "5549": {
         "descricao": "CORONA EXTRA LATA 350ML",
         "IDPRODUTO": 5549,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -31504,19 +31534,19 @@
         "IDPRODUTO": 5584,
         "PRECO_VENDA": 15.99,
         "IDSUBGRUPO_PRODUTO": 12,
-        "PRECO_PROMOCIONAL": 9.99,
-        "DATA_LIMITE_PROM": "2024-04-23",
-        "DATA_INICIO_PROM": "2024-04-02",
+        "PRECO_PROMOCIONAL": 13.9,
+        "DATA_LIMITE_PROM": "2024-11-30",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7896004006406"
     },
     "5585": {
-        "descricao": "BATATA PRINGLES ORIGINAL 109GR",
+        "descricao": "BATATA PRINGLES ORIGINAL 104GR",
         "IDPRODUTO": 5585,
         "PRECO_VENDA": 9.99,
         "IDSUBGRUPO_PRODUTO": 12,
-        "PRECO_PROMOCIONAL": 9.99,
-        "DATA_LIMITE_PROM": "2024-04-23",
-        "DATA_INICIO_PROM": "2024-04-03",
+        "PRECO_PROMOCIONAL": 13.9,
+        "DATA_LIMITE_PROM": "2024-11-30",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7896004006277"
     },
     "5586": {
@@ -31602,7 +31632,7 @@
     "5602": {
         "descricao": "GELEIA DE MOCOTO DUCOPO 180 G",
         "IDPRODUTO": 5602,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 6.25,
         "IDSUBGRUPO_PRODUTO": 37,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33155,7 +33185,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-08-04",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-06-28",
         "CODIGO_BARRA": "7896002111898"
     },
@@ -33602,7 +33632,7 @@
     "5923": {
         "descricao": "HAVAIANAS BRASIL  41/42",
         "IDPRODUTO": 5923,
-        "PRECO_VENDA": 40.99,
+        "PRECO_VENDA": 44.49,
         "IDSUBGRUPO_PRODUTO": 4,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33612,7 +33642,7 @@
     "5924": {
         "descricao": "HAVAIANAS BRASIL BRANCA 39/40",
         "IDPRODUTO": 5924,
-        "PRECO_VENDA": 40.99,
+        "PRECO_VENDA": 44.49,
         "IDSUBGRUPO_PRODUTO": 4,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33632,7 +33662,7 @@
     "5926": {
         "descricao": "HAVAIANAS BRASIL AZUL 43/44",
         "IDPRODUTO": 5926,
-        "PRECO_VENDA": 40.99,
+        "PRECO_VENDA": 44.49,
         "IDSUBGRUPO_PRODUTO": 4,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33642,7 +33672,7 @@
     "5927": {
         "descricao": "HAVAIANAS BRASIL BRANCA 41/42",
         "IDPRODUTO": 5927,
-        "PRECO_VENDA": 40.99,
+        "PRECO_VENDA": 44.49,
         "IDSUBGRUPO_PRODUTO": 4,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33782,11 +33812,11 @@
     "5946": {
         "descricao": "CERVEJA SOL PREMIUM 330ML",
         "IDPRODUTO": 5946,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 6.25,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 3.49,
+        "DATA_LIMITE_PROM": "2024-11-11",
+        "DATA_INICIO_PROM": "2024-10-09",
         "CODIGO_BARRA": "78934115"
     },
     "5947": {
@@ -34170,14 +34200,14 @@
         "CODIGO_BARRA": "5996"
     },
     "5998": {
-        "descricao": "HAMBURGUER PERDIGAO 56GR",
+        "descricao": "ICE LEEV MARACUJA 275ML",
         "IDPRODUTO": 5998,
-        "PRECO_VENDA": 1.69,
-        "IDSUBGRUPO_PRODUTO": 18,
+        "PRECO_VENDA": 6.99,
+        "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7891515989408"
+        "CODIGO_BARRA": "7898738660336"
     },
     "5999": {
         "descricao": "EMPANADO SADIA FRANGO 100GR",
@@ -34272,7 +34302,7 @@
     "6015": {
         "descricao": "CHA HORTELA MARATA",
         "IDPRODUTO": 6015,
-        "PRECO_VENDA": 4.99,
+        "PRECO_VENDA": 4.49,
         "IDSUBGRUPO_PRODUTO": 37,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -34350,14 +34380,14 @@
         "CODIGO_BARRA": "7891991298421"
     },
     "6025": {
-        "descricao": "PALMITO IMPERADOR 500G",
+        "descricao": "PALMITO PALMEIRON  500G",
         "IDPRODUTO": 6025,
-        "PRECO_VENDA": 11.99,
+        "PRECO_VENDA": 16.99,
         "IDSUBGRUPO_PRODUTO": 7,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7898016920022"
+        "CODIGO_BARRA": "7898366930634"
     },
     "6026": {
         "descricao": "OVO DA PASCOA GARATO SERENATA DE AMOR 196.5GR",
@@ -35252,7 +35282,7 @@
     "6152": {
         "descricao": "CARNE DE SOL COXAO MOLE KG",
         "IDPRODUTO": 6152,
-        "PRECO_VENDA": 36.99,
+        "PRECO_VENDA": 40.9,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -36232,7 +36262,7 @@
     "6302": {
         "descricao": "CAFE SANTA CLARA ALMOFADA EXTRA FORTE 250G",
         "IDPRODUTO": 6302,
-        "PRECO_VENDA": 10.49,
+        "PRECO_VENDA": 11.89,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -36470,7 +36500,7 @@
         "CODIGO_BARRA": "6335"
     },
     "6336": {
-        "descricao": "BEBIDA MISTA ICE LEEV LIMAO 275ML",
+        "descricao": "ICE LEEV LIMAO 275ML",
         "IDPRODUTO": 6336,
         "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 23,
@@ -36550,14 +36580,14 @@
         "CODIGO_BARRA": "7896945403227"
     },
     "6346": {
-        "descricao": "CAJUINA SAO GERALDO 2LT",
+        "descricao": "CAJUINA SAO GERALDO 2L",
         "IDPRODUTO": 6346,
-        "PRECO_VENDA": 8.99,
+        "PRECO_VENDA": 9.25,
         "IDSUBGRUPO_PRODUTO": 29,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7897240900107"
+        "CODIGO_BARRA": "6346"
     },
     "6347": {
         "descricao": "SORVETE STERBOM 3 CHOCOLATE 2LT",
@@ -37380,9 +37410,9 @@
         "CODIGO_BARRA": "7891000103876"
     },
     "6461": {
-        "descricao": "GELO SABORES 190G",
+        "descricao": "GELO SABORES EM BARRA 190GR",
         "IDPRODUTO": 6461,
-        "PRECO_VENDA": 2.59,
+        "PRECO_VENDA": 4.2,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -38075,7 +38105,7 @@
         "PRECO_VENDA": 2.15,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 1.99,
-        "DATA_LIMITE_PROM": "2024-09-30",
+        "DATA_LIMITE_PROM": "2024-10-01",
         "DATA_INICIO_PROM": "2024-09-14",
         "CODIGO_BARRA": "7896045503414"
     },
@@ -38172,7 +38202,7 @@
     "6573": {
         "descricao": "BISCOITO RICHESTER CHOCOLATE 125GR",
         "IDPRODUTO": 6573,
-        "PRECO_VENDA": 2.99,
+        "PRECO_VENDA": 3.25,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -38182,7 +38212,7 @@
     "6575": {
         "descricao": "BISCOITO RISCHESTER ESCURETO 125GR",
         "IDPRODUTO": 6575,
-        "PRECO_VENDA": 2.99,
+        "PRECO_VENDA": 3.25,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -38302,7 +38332,7 @@
     "6598": {
         "descricao": "BISCOITO AMORI RICHESTER MORANGO 125GR",
         "IDPRODUTO": 6598,
-        "PRECO_VENDA": 2.99,
+        "PRECO_VENDA": 3.25,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -38660,7 +38690,7 @@
         "CODIGO_BARRA": "7896051165491"
     },
     "6649": {
-        "descricao": "NISSIN VITARELLA GALINHA CAIPIRA 85GR",
+        "descricao": "NISSIN VITARELLA GALINHA CAIPIRA 74,3GR",
         "IDPRODUTO": 6649,
         "PRECO_VENDA": 1.75,
         "IDSUBGRUPO_PRODUTO": 8,
@@ -39062,7 +39092,7 @@
     "6699": {
         "descricao": "CHA LEAO AMORA/MIRTILO/BAUNILHA 16G",
         "IDPRODUTO": 6699,
-        "PRECO_VENDA": 11.19,
+        "PRECO_VENDA": 10.79,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -39412,11 +39442,11 @@
     "6762": {
         "descricao": "EISENBAHN SESSION IPA 355ML",
         "IDPRODUTO": 6762,
-        "PRECO_VENDA": 4.99,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 3.49,
+        "DATA_LIMITE_PROM": "2024-10-29",
+        "DATA_INICIO_PROM": "2024-10-08",
         "CODIGO_BARRA": "7898367984254"
     },
     "6765": {
@@ -39552,7 +39582,7 @@
     "6781": {
         "descricao": "FARINHA DE TRIGO FINNA COM FERMENTO VITAM 1KG",
         "IDPRODUTO": 6781,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 5.89,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -40040,34 +40070,34 @@
         "CODIGO_BARRA": "7896963402356"
     },
     "6861": {
-        "descricao": "DOCE BEIJINHO BOM DA FESTA 365GR",
+        "descricao": "BEIJINHO DE COLHER BOM DA FESTA 255GR",
         "IDPRODUTO": 6861,
-        "PRECO_VENDA": 8.79,
+        "PRECO_VENDA": 11.89,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7897259401466"
+        "CODIGO_BARRA": "7897259401961"
     },
     "6862": {
-        "descricao": "DOCE BOM DA FESTA BRIGADEIRO 385GR",
+        "descricao": "BOM DA FESTA BRIGADEIRO 255GR",
         "IDPRODUTO": 6862,
         "PRECO_VENDA": 10.29,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7897259401442"
+        "CODIGO_BARRA": "7897259401954"
     },
     "6863": {
-        "descricao": "DOCE BOM DA FESTA CHOCOLATE 380GR",
+        "descricao": "BOM DA FESTA CHOCOLATE 150GR",
         "IDPRODUTO": 6863,
         "PRECO_VENDA": 10.29,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7897259401480"
+        "CODIGO_BARRA": "7897259402623"
     },
     "6864": {
         "descricao": "CAFE SANTA CLARA EXTRA FORTE 100GR",
@@ -40180,7 +40210,7 @@
         "CODIGO_BARRA": "7896607100877"
     },
     "6881": {
-        "descricao": "51 OURO  LATA 350ML",
+        "descricao": "51 OURO LATA 350ML",
         "IDPRODUTO": 6881,
         "PRECO_VENDA": 5.75,
         "IDSUBGRUPO_PRODUTO": 26,
@@ -40220,7 +40250,7 @@
         "CODIGO_BARRA": "7892840802745"
     },
     "6885": {
-        "descricao": "BISCOI BONO RECHEADO DOCE LEITE 90G",
+        "descricao": "BISCOITO BONO RECHEADO DOCE LEITE 90G",
         "IDPRODUTO": 6885,
         "PRECO_VENDA": 2.75,
         "IDSUBGRUPO_PRODUTO": 15,
@@ -40230,7 +40260,7 @@
         "CODIGO_BARRA": "6885"
     },
     "6886": {
-        "descricao": "BISCOITO REC BONO LIMAO 90GR",
+        "descricao": "BISCOITO BONO LIMAO 90G",
         "IDPRODUTO": 6886,
         "PRECO_VENDA": 2.75,
         "IDSUBGRUPO_PRODUTO": 15,
@@ -40522,7 +40552,7 @@
     "8034": {
         "descricao": "BATON ALGODAO DOCE BASTAO 16GR",
         "IDPRODUTO": 8034,
-        "PRECO_VENDA": 1.4,
+        "PRECO_VENDA": 1.99,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0.99,
         "DATA_LIMITE_PROM": "2024-07-15",
@@ -41709,6 +41739,16 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7891037144705"
     },
+    "8227": {
+        "descricao": "SEDA BEM BOLADO BROW",
+        "IDPRODUTO": 8227,
+        "PRECO_VENDA": 0.25,
+        "IDSUBGRUPO_PRODUTO": 5,
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "1899-12-30",
+        "DATA_INICIO_PROM": "1899-12-30",
+        "CODIGO_BARRA": "0742832800150"
+    },
     "8228": {
         "descricao": "BATATA FREETAZ COST 18G",
         "IDPRODUTO": 8228,
@@ -41810,7 +41850,7 @@
         "CODIGO_BARRA": "7897736403228"
     },
     "8246": {
-        "descricao": "BEBIDA MISTA NINNOFF ICE LIMAO 300 ML",
+        "descricao": "COQUETEL NINNOFF ICE LIMAO 300ML",
         "IDPRODUTO": 8246,
         "PRECO_VENDA": 3.25,
         "IDSUBGRUPO_PRODUTO": 28,
@@ -42279,6 +42319,16 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7899916906031"
     },
+    "8315": {
+        "descricao": "AGUA TONICA ANTARCTICA DIET 350ML",
+        "IDPRODUTO": 8315,
+        "PRECO_VENDA": 3.99,
+        "IDSUBGRUPO_PRODUTO": 14,
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "1899-12-30",
+        "DATA_INICIO_PROM": "1899-12-30",
+        "CODIGO_BARRA": "7891991000888"
+    },
     "8318": {
         "descricao": "MONSTER PIPELINE PUNCH 473ML",
         "IDPRODUTO": 8318,
@@ -42390,14 +42440,14 @@
         "CODIGO_BARRA": "7898738660053"
     },
     "8331": {
-        "descricao": "ICE LEEV SIX MELANCIA 275ML",
+        "descricao": "ICE LEEV MELANCIA 275ML",
         "IDPRODUTO": 8331,
         "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "17898738660210"
+        "CODIGO_BARRA": "7898738660213"
     },
     "8333": {
         "descricao": "LEITE PO ITALAC INTEGRAL 800G",
@@ -42584,9 +42634,9 @@
         "IDPRODUTO": 8389,
         "PRECO_VENDA": 15.99,
         "IDSUBGRUPO_PRODUTO": 12,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "2024-04-02",
-        "DATA_INICIO_PROM": "2024-04-02",
+        "PRECO_PROMOCIONAL": 13.9,
+        "DATA_LIMITE_PROM": "2024-11-30",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7896004006239"
     },
     "8390": {
@@ -42598,6 +42648,16 @@
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7896009761928"
+    },
+    "8392": {
+        "descricao": "VOLD AMERICAN LAGER 269ML",
+        "IDPRODUTO": 8392,
+        "PRECO_VENDA": 3.99,
+        "IDSUBGRUPO_PRODUTO": 30,
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "1899-12-30",
+        "DATA_INICIO_PROM": "1899-12-30",
+        "CODIGO_BARRA": "7897395002831"
     },
     "8393": {
         "descricao": "CASTANHA DA TERRA NATURAL GRANDE 100GR",
@@ -42692,7 +42752,7 @@
     "8404": {
         "descricao": "DESOD NIVEA ROLL-ON ORIG PROTECT 50ML",
         "IDPRODUTO": 8404,
-        "PRECO_VENDA": 8.39,
+        "PRECO_VENDA": 9.99,
         "IDSUBGRUPO_PRODUTO": 3,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -42702,7 +42762,7 @@
     "8405": {
         "descricao": "DESOD NIVEA ROLL-ON PEARLBEAUTY 50ML",
         "IDPRODUTO": 8405,
-        "PRECO_VENDA": 8.39,
+        "PRECO_VENDA": 9.99,
         "IDSUBGRUPO_PRODUTO": 3,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -43342,7 +43402,7 @@
     "8502": {
         "descricao": "FEIJAO PRETO MEU BIJU 1KG",
         "IDPRODUTO": 8502,
-        "PRECO_VENDA": 13.49,
+        "PRECO_VENDA": 10.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -43772,7 +43832,7 @@
     "8552": {
         "descricao": "SHAMPOO ELSEVE GLYCOLIC GLOSS 200ML",
         "IDPRODUTO": 8552,
-        "PRECO_VENDA": 14.29,
+        "PRECO_VENDA": 15.49,
         "IDSUBGRUPO_PRODUTO": 3,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -44172,7 +44232,7 @@
     "8607": {
         "descricao": "CHA MARATA ERVA DOCE",
         "IDPRODUTO": 8607,
-        "PRECO_VENDA": 4.89,
+        "PRECO_VENDA": 4.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -44182,7 +44242,7 @@
     "8608": {
         "descricao": "CHA MARATA CIDREIRA",
         "IDPRODUTO": 8608,
-        "PRECO_VENDA": 3.99,
+        "PRECO_VENDA": 4.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -44192,7 +44252,7 @@
     "8609": {
         "descricao": "CHA MARATA BOLDO",
         "IDPRODUTO": 8609,
-        "PRECO_VENDA": 3.99,
+        "PRECO_VENDA": 4.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -45620,9 +45680,9 @@
         "CODIGO_BARRA": "17897736409623"
     },
     "8795": {
-        "descricao": "COQUETEL NINNOFF ICE LIMAO1LT",
+        "descricao": "COQUETEL NINNOFF ICE LIMAO 1L",
         "IDPRODUTO": 8795,
-        "PRECO_VENDA": 14.99,
+        "PRECO_VENDA": 8.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -45665,7 +45725,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 5.99,
-        "DATA_LIMITE_PROM": "2024-09-13",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-09-06",
         "CODIGO_BARRA": "7896002111928"
     },
@@ -46012,10 +46072,10 @@
     "8844": {
         "descricao": "LEITE EM PO BETANIA 200G",
         "IDPRODUTO": 8844,
-        "PRECO_VENDA": 7.89,
+        "PRECO_VENDA": 7.49,
         "IDSUBGRUPO_PRODUTO": 32,
         "PRECO_PROMOCIONAL": 6.75,
-        "DATA_LIMITE_PROM": "2024-09-10",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-08-20",
         "CODIGO_BARRA": "7898403780918"
     },
@@ -46135,7 +46195,7 @@
         "PRECO_VENDA": 2.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 1.19,
-        "DATA_LIMITE_PROM": "2024-09-01",
+        "DATA_LIMITE_PROM": "2024-09-30",
         "DATA_INICIO_PROM": "2024-08-20",
         "CODIGO_BARRA": "7896036098981"
     },
@@ -46145,8 +46205,8 @@
         "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 2.79,
-        "DATA_LIMITE_PROM": "2024-09-10",
-        "DATA_INICIO_PROM": "2024-08-20",
+        "DATA_LIMITE_PROM": "2024-10-01",
+        "DATA_INICIO_PROM": "2024-09-25",
         "CODIGO_BARRA": "7892840823504"
     },
     "9162": {
@@ -46154,9 +46214,9 @@
         "IDPRODUTO": 9162,
         "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 12,
-        "PRECO_PROMOCIONAL": 2.79,
-        "DATA_LIMITE_PROM": "2024-09-10",
-        "DATA_INICIO_PROM": "2024-08-20",
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "2024-10-01",
+        "DATA_INICIO_PROM": "2024-09-25",
         "CODIGO_BARRA": "7892840823061"
     },
     "9163": {
@@ -46332,11 +46392,11 @@
     "6000610": {
         "descricao": "MUCILON ARROZ SACHET 180G",
         "IDPRODUTO": 6000610,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 35,
         "PRECO_PROMOCIONAL": 5.29,
         "DATA_LIMITE_PROM": "2024-09-10",
         "DATA_INICIO_PROM": "2024-08-20",
-        "CODIGO_BARRA": "7891000319635"
+        "CODIGO_BARRA": "7891000319628"
     }
 }

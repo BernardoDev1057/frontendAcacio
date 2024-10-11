@@ -3,7 +3,7 @@
     // Função para carregar produtos
     async function carregarProdutos() {
         try {
-            const response = await fetch('estoque.json?date=' + new Date());  // Puxa o arquivo estoque.json
+            const response = await fetch('estoque.json');  // Puxa o arquivo estoque.json
             estoque = await response.json();  // Converte a resposta para JSON
             const datalist = document.getElementById('itens');
             const dataAtual = new Date();
@@ -225,9 +225,10 @@
             const divProduto = document.createElement('div');
             divProduto.classList.add('produto-promocao');
             divProduto.innerHTML = `
-                <img src="img/${produto.IDPRODUTO}.png" alt="${produto.descricao}" class="img-fluid" style="width: 80%; margin-bottom: 10px;">
+                <img src="img/${produto.IDPRODUTO}.png" alt="${produto.descricao}" class="img-fluid" style="width: 80%;max-height:500px; margin-bottom: 10px;">
                 <p>${produto.descricao}</p>
-                <p>De R$ ${produto.PRECO_VENDA.toFixed(2)} por <strong>R$ ${produto.PRECO_PROMOCIONAL.toFixed(2)}</strong></p>
+                <p>De R$ ${produto.PRECO_VENDA.toFixed(2)} por <strong>R$ ${produto.PRECO_PROMOCIONAL.toFixed(2)}.</strong></p>
+                <p><center>Unidade.</center></p>
             `;
             modalPromocaoBody.appendChild(divProduto);
         }
