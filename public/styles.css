@@ -166,3 +166,9 @@ h1 {
     background-color: #007bff; /* Azul para o botão de fechar */
     color: white;
 }
+
+@media (max-width: 1024px) {
+    .produto-promocao {
+        width: 35%;
+    }
+}
