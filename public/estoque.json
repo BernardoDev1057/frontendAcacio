@@ -45734,9 +45734,9 @@
         "IDPRODUTO": 8808,
         "PRECO_VENDA": 9.9,
         "IDSUBGRUPO_PRODUTO": 20,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 5.99,
+        "DATA_LIMITE_PROM": "2024-10-17",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7896336809942"
     },
     "8809": {
