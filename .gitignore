@@ -1,6 +1,6 @@
 firebase-debug.log
 /public/estoque.json
 /public/estoque.txt
-/public/img/
+/public/img/*.png
 /public/transform.js
 *.cache
