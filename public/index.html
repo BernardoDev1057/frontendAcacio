@@ -27,7 +27,9 @@
 	<link rel="icon" href="img/logo.png">
 	
     <title>Acacio Bebidas - Solicitação de Delivery</title>
-    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -131,38 +133,82 @@
       </div>
     </div>
   </div>
-  
-  <!-- Botão para abrir o modal manualmente, se desejar 
-  <button type="button" class="btn btn-primary" onclick="exibirPromocoesModal()">Ver Promoções</button>-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="scripts.js"></script>
+ 
+<!-- Botão de Compartilhar Ofertas -->
+<button id="shareOffersButton" class="btn-share">
+  <i class="fas fa-share-alt"></i>    Compartilhar Ofertas
+</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+    document.getElementById('shareOffersButton').addEventListener('click', async () => {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
 
-    <!--adicionar o modulo sdk para analitics
-    -->
+        // Definir cores e fonte base
+        doc.setFont("Arial", "bold");
+        doc.setTextColor("#333");
+        doc.setFillColor("#ff6700"); // Laranja
+        doc.setDrawColor("#007bff"); // Azul para as bordas
+        doc.setFontSize(16);
 
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyC-4D-5eh0LnVPyt58faoNM-tKmVSaVJD8",
-          authDomain: "acaciobebidas-d6bd6.firebaseapp.com",
-          databaseURL: "https://acaciobebidas-d6bd6-default-rtdb.firebaseio.com",
-          projectId: "acaciobebidas-d6bd6",
-          storageBucket: "acaciobebidas-d6bd6.appspot.com",
-          messagingSenderId: "510637509123",
-          appId: "1:510637509123:web:67609ea8d14b77c22a5c36",
-          measurementId: "G-4HD7QHMEBQ"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
+        // Desenhar cabeçalho
+        doc.setFillColor("#ff6700");
+        doc.rect(10, 10, 190, 20, 'F'); // Fundo laranja para o cabeçalho
+        doc.setTextColor("#fff"); // Texto branco no cabeçalho
+        doc.text("Relatório de Ofertas - Acácio Bebidas", 15, 23);
+
+        let yPosition = 40;
+        const linhaAltura = 10;
+
+        // Carregar os produtos do Firebase
+        let produtos = await getData(); // Função que obtém os produtos do Firebase
+        const dataAtual = new Date();
+
+        // Iterar sobre os produtos e exibir apenas os que estão em promoção
+        for (const idProduto in produtos) {
+            const produto = produtos[idProduto];
+
+            const dataInicioProm = new Date(produto.DATA_INICIO_PROM);
+            const dataLimiteProm = new Date(produto.DATA_LIMITE_PROM);
+
+            // Verificar se o produto está em promoção
+            if (produto.PRECO_PROMOCIONAL > 0 && dataAtual >= dataInicioProm && dataAtual <= dataLimiteProm) {
+                let precoPromocional = produto.PRECO_PROMOCIONAL;
+
+                // Desenhar caixa ao redor do produto
+                doc.setDrawColor("#007bff");
+                doc.rect(10, yPosition, 190, 30); // Retângulo ao redor do produto
+
+                // Adicionar nome do produto
+                doc.setFontSize(14);
+                doc.setTextColor("#333");
+                doc.text(`Produto: ${produto.descricao}`, 15, yPosition + 10);
+
+                // Exibir preço de venda
+                doc.text(`Preço de Venda: R$ ${produto.PRECO_VENDA.toFixed(2)}`, 15, yPosition + 20);
+
+                // Exibir preço promocional
+                doc.text(`Preço Promocional: R$ ${precoPromocional.toFixed(2)}`, 100, yPosition + 20);
+
+                // Linha separadora entre os produtos
+                doc.setDrawColor("#007bff");
+                doc.line(10, yPosition + 30, 200, yPosition + 30);
+
+                yPosition += 40;
+
+                // Verificar se precisa de uma nova página
+                if (yPosition > 280) {
+                    doc.addPage();
+                    yPosition = 20;
+                }
+            }
+        }
+
+        // Salvar o PDF com os dados dos produtos promocionais
+        doc.save("relatorio_ofertas.pdf");
+    });
+</script>
+<script type="module" src="scripts.js"></script>
 </body>
 </html>
