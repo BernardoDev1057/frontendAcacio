@@ -632,7 +632,7 @@
     "74": {
         "descricao": "CACH SAGATIBA CRISTAL VD 700ML",
         "IDPRODUTO": 74,
-        "PRECO_VENDA": 25,
+        "PRECO_VENDA": 34.9,
         "IDSUBGRUPO_PRODUTO": 26,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -2002,7 +2002,7 @@
     "338": {
         "descricao": "GALIOTTO TINTO SUAVE 750ML",
         "IDPRODUTO": 338,
-        "PRECO_VENDA": 15.9,
+        "PRECO_VENDA": 16.9,
         "IDSUBGRUPO_PRODUTO": 20,
         "PRECO_PROMOCIONAL": 15.9,
         "DATA_LIMITE_PROM": "2024-08-12",
@@ -2950,9 +2950,9 @@
         "CODIGO_BARRA": "7898352550013"
     },
     "510": {
-        "descricao": "CACHACA RAINHA 600ML",
+        "descricao": "AGUARDENTE RAINHA 600ML",
         "IDPRODUTO": 510,
-        "PRECO_VENDA": 28.99,
+        "PRECO_VENDA": 38.99,
         "IDSUBGRUPO_PRODUTO": 26,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -3252,7 +3252,7 @@
     "569": {
         "descricao": "BRAHMA CHOP 600ML",
         "IDPRODUTO": 569,
-        "PRECO_VENDA": 5.8,
+        "PRECO_VENDA": 5.89,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -3904,9 +3904,9 @@
         "IDPRODUTO": 774,
         "PRECO_VENDA": 3.49,
         "IDSUBGRUPO_PRODUTO": 15,
-        "PRECO_PROMOCIONAL": 1.99,
-        "DATA_LIMITE_PROM": "2024-07-07",
-        "DATA_INICIO_PROM": "2024-07-05",
+        "PRECO_PROMOCIONAL": 2.25,
+        "DATA_LIMITE_PROM": "2024-10-31",
+        "DATA_INICIO_PROM": "2024-10-18",
         "CODIGO_BARRA": "7891000051436"
     },
     "775": {
@@ -3920,7 +3920,7 @@
         "CODIGO_BARRA": "7891000089231"
     },
     "776": {
-        "descricao": "BISC. RECHEADINHO BRIG. 104G",
+        "descricao": "BISCOITO RECHEADINHO BRIGADEIRO 104G",
         "IDPRODUTO": 776,
         "PRECO_VENDA": 4.25,
         "IDSUBGRUPO_PRODUTO": 15,
@@ -5062,7 +5062,7 @@
     "1262": {
         "descricao": "AMENDOIM SALGADO JAPONES 70G",
         "IDPRODUTO": 1262,
-        "PRECO_VENDA": 4.5,
+        "PRECO_VENDA": 4.99,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5082,7 +5082,7 @@
     "1266": {
         "descricao": "AM PETTIZ  PIMENTA VERMELHA 120GR",
         "IDPRODUTO": 1266,
-        "PRECO_VENDA": 7.49,
+        "PRECO_VENDA": 9.2,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5540,9 +5540,9 @@
         "CODIGO_BARRA": "7898905590053"
     },
     "1473": {
-        "descricao": "CACHACA RAINHA 350ML",
+        "descricao": "AGUARDENTE RAINHA 375ML",
         "IDPRODUTO": 1473,
-        "PRECO_VENDA": 16.99,
+        "PRECO_VENDA": 19.49,
         "IDSUBGRUPO_PRODUTO": 26,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5674,9 +5674,9 @@
         "IDPRODUTO": 1514,
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 30,
-        "PRECO_PROMOCIONAL": 4.99,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 4.89,
+        "DATA_LIMITE_PROM": "2024-10-31",
+        "DATA_INICIO_PROM": "2024-10-17",
         "CODIGO_BARRA": "7898367980010"
     },
     "1516": {
@@ -6802,7 +6802,7 @@
     "1868": {
         "descricao": "TIC TAC MENTA 14.5GR",
         "IDPRODUTO": 1868,
-        "PRECO_VENDA": 2.2,
+        "PRECO_VENDA": 3.25,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -7222,7 +7222,7 @@
     "2027": {
         "descricao": "VINHO PERGOLA TINTO SUAVE 1L",
         "IDPRODUTO": 2027,
-        "PRECO_VENDA": 26.5,
+        "PRECO_VENDA": 27.9,
         "IDSUBGRUPO_PRODUTO": 20,
         "PRECO_PROMOCIONAL": 22.9,
         "DATA_LIMITE_PROM": "2024-04-17",
@@ -8150,7 +8150,7 @@
         "CODIGO_BARRA": "7898005515406"
     },
     "2217": {
-        "descricao": "PIC LAC N.GOIABA 60G",
+        "descricao": "PICOLE STERBOM LAC NATA GOIABA 60G",
         "IDPRODUTO": 2217,
         "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 13,
@@ -8712,7 +8712,7 @@
     "2311": {
         "descricao": "SORVETE NAPOLITANO 2LT",
         "IDPRODUTO": 2311,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -8732,7 +8732,7 @@
     "2313": {
         "descricao": "SORVETE STERBOM CREME PASSAS 2L",
         "IDPRODUTO": 2313,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -8742,7 +8742,7 @@
     "2314": {
         "descricao": "SORVETE STERBOM SERESTA 2L",
         "IDPRODUTO": 2314,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -9004,9 +9004,9 @@
         "IDPRODUTO": 2350,
         "PRECO_VENDA": 8.99,
         "IDSUBGRUPO_PRODUTO": 12,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 6.99,
+        "DATA_LIMITE_PROM": "2024-10-04",
+        "DATA_INICIO_PROM": "2024-10-04",
         "CODIGO_BARRA": "7891091061789"
     },
     "2351": {
@@ -10202,7 +10202,7 @@
     "2531": {
         "descricao": "SORVETE STERBOM NATA GOIABA 2L",
         "IDPRODUTO": 2531,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -10692,7 +10692,7 @@
     "2610": {
         "descricao": "SORVETE STERBOM STERBLITO 2L",
         "IDPRODUTO": 2610,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -11132,7 +11132,7 @@
     "2682": {
         "descricao": "AMENDOIM JAPONES 150G",
         "IDPRODUTO": 2682,
-        "PRECO_VENDA": 8.89,
+        "PRECO_VENDA": 9.2,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -13172,7 +13172,7 @@
     "2953": {
         "descricao": "SORVETE STERBOM NATA UVA 2L",
         "IDPRODUTO": 2953,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -13542,7 +13542,7 @@
     "3018": {
         "descricao": "BOLSA TERMICA SOPRANO 18L TROPICAL AZUL 1X1",
         "IDPRODUTO": 3018,
-        "PRECO_VENDA": 91.99,
+        "PRECO_VENDA": 96.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -14072,11 +14072,11 @@
     "3088": {
         "descricao": "SORVETE GELATO CHOCOLATE BELGA 1.5L",
         "IDPRODUTO": 3088,
-        "PRECO_VENDA": 20.99,
+        "PRECO_VENDA": 21.49,
         "IDSUBGRUPO_PRODUTO": 13,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 21.49,
+        "DATA_LIMITE_PROM": "2024-10-11",
+        "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7898005510210"
     },
     "3091": {
@@ -15792,7 +15792,7 @@
     "3338": {
         "descricao": "STELLA ARTOIS 600ML",
         "IDPRODUTO": 3338,
-        "PRECO_VENDA": 9.49,
+        "PRECO_VENDA": 9.99,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 7.99,
         "DATA_LIMITE_PROM": "2024-06-29",
@@ -15872,7 +15872,7 @@
     "3355": {
         "descricao": "SORVETE STERBOM FLOCOS 2L",
         "IDPRODUTO": 3355,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -16442,7 +16442,7 @@
     "3438": {
         "descricao": "TIC TAC FRUTAS 16G",
         "IDPRODUTO": 3438,
-        "PRECO_VENDA": 2.2,
+        "PRECO_VENDA": 3.25,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -18112,7 +18112,7 @@
     "3676": {
         "descricao": "JOVI ABACAXI LONG 275ML",
         "IDPRODUTO": 3676,
-        "PRECO_VENDA": 9.49,
+        "PRECO_VENDA": 9.99,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -19112,7 +19112,7 @@
     "3818": {
         "descricao": "AMENDOIM JAPONES DORI 320G",
         "IDPRODUTO": 3818,
-        "PRECO_VENDA": 12.49,
+        "PRECO_VENDA": 15.99,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -19382,7 +19382,7 @@
     "3878": {
         "descricao": "AMENDOIM DORI TORRADO BOTECO 90G",
         "IDPRODUTO": 3878,
-        "PRECO_VENDA": 4,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -19434,9 +19434,9 @@
         "IDPRODUTO": 3887,
         "PRECO_VENDA": 38.99,
         "IDSUBGRUPO_PRODUTO": 19,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 39.9,
+        "DATA_LIMITE_PROM": "2024-10-18",
+        "DATA_INICIO_PROM": "2024-10-19",
         "CODIGO_BARRA": "7908026900300"
     },
     "3888": {
@@ -20732,7 +20732,7 @@
     "4070": {
         "descricao": "AMENDOIM PETTIZ CEBOLA/SALSA 350G",
         "IDPRODUTO": 4070,
-        "PRECO_VENDA": 18.49,
+        "PRECO_VENDA": 18.99,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -21582,7 +21582,7 @@
     "4181": {
         "descricao": "SORVETE STERBOM NAPOLITANO ESPECIAL 2L",
         "IDPRODUTO": 4181,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -25552,7 +25552,7 @@
     "4696": {
         "descricao": "DILUTE XAROPE DE SUCO FRUTAS VERMELHAS 500ML",
         "IDPRODUTO": 4696,
-        "PRECO_VENDA": 34.9,
+        "PRECO_VENDA": 36.99,
         "IDSUBGRUPO_PRODUTO": 21,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -25562,7 +25562,7 @@
     "4697": {
         "descricao": "DILUTE XAROPE DE SUCO FRUTAS VERMELHAS ZERO 500ML",
         "IDPRODUTO": 4697,
-        "PRECO_VENDA": 34.9,
+        "PRECO_VENDA": 36.99,
         "IDSUBGRUPO_PRODUTO": 21,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -25572,7 +25572,7 @@
     "4698": {
         "descricao": "DILUTE XAROPE DE SUCO MARACUJA 500ML",
         "IDPRODUTO": 4698,
-        "PRECO_VENDA": 34.9,
+        "PRECO_VENDA": 36.99,
         "IDSUBGRUPO_PRODUTO": 21,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -25582,7 +25582,7 @@
     "4699": {
         "descricao": "DILUTE XAROPE DE SUCO MACA VERDE 500ML",
         "IDPRODUTO": 4699,
-        "PRECO_VENDA": 34.9,
+        "PRECO_VENDA": 38.99,
         "IDSUBGRUPO_PRODUTO": 21,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -26340,9 +26340,9 @@
         "CODIGO_BARRA": "7891962056678"
     },
     "4809": {
-        "descricao": "BISC. CHOCO BISCUIT CHOCOLATE AO LEITE",
+        "descricao": "BISCOITO BAUDUCCO  BISCUIT CHOC AO LEITE 80GR",
         "IDPRODUTO": 4809,
-        "PRECO_VENDA": 7,
+        "PRECO_VENDA": 8.49,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -26842,7 +26842,7 @@
     "4875": {
         "descricao": "MACARRAO ESPAGUETE BONSABOR 400G",
         "IDPRODUTO": 4875,
-        "PRECO_VENDA": 2.89,
+        "PRECO_VENDA": 2.79,
         "IDSUBGRUPO_PRODUTO": 8,
         "PRECO_PROMOCIONAL": 2.09,
         "DATA_LIMITE_PROM": "2024-09-30",
@@ -29062,7 +29062,7 @@
     "5200": {
         "descricao": "AMENDOIM JAPONES  PETTIZ FORNO  350GR",
         "IDPRODUTO": 5200,
-        "PRECO_VENDA": 15.99,
+        "PRECO_VENDA": 16.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -30192,7 +30192,7 @@
     "5367": {
         "descricao": "CHICLETE MENTOS 1 UND",
         "IDPRODUTO": 5367,
-        "PRECO_VENDA": 0.3,
+        "PRECO_VENDA": 0.5,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -30352,7 +30352,7 @@
     "5388": {
         "descricao": "AMENDOIM PETTIZ CEBOLA/SALSA 70G",
         "IDPRODUTO": 5388,
-        "PRECO_VENDA": 5.49,
+        "PRECO_VENDA": 5.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -31032,11 +31032,11 @@
     "5503": {
         "descricao": "SORVETE GELATTO MENTA/CHOCO 1.5LT",
         "IDPRODUTO": 5503,
-        "PRECO_VENDA": 20.99,
+        "PRECO_VENDA": 21.49,
         "IDSUBGRUPO_PRODUTO": 13,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 21.49,
+        "DATA_LIMITE_PROM": "2024-10-11",
+        "DATA_INICIO_PROM": "2024-10-12",
         "CODIGO_BARRA": "7898005510173"
     },
     "5504": {
@@ -31352,7 +31352,7 @@
     "5559": {
         "descricao": "FRUIT-TELLA MORANGO MASTIGAVEL 40GR",
         "IDPRODUTO": 5559,
-        "PRECO_VENDA": 2.35,
+        "PRECO_VENDA": 4.89,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -31402,7 +31402,7 @@
     "5564": {
         "descricao": "VINHO PERGOLA TINTO SUAVE 750ML",
         "IDPRODUTO": 5564,
-        "PRECO_VENDA": 22.9,
+        "PRECO_VENDA": 23.9,
         "IDSUBGRUPO_PRODUTO": 20,
         "PRECO_PROMOCIONAL": 17.99,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -31812,11 +31812,11 @@
     "5624": {
         "descricao": "SORVETE GELATO CREME C PASSAS 1.5L",
         "IDPRODUTO": 5624,
-        "PRECO_VENDA": 20.99,
+        "PRECO_VENDA": 21.49,
         "IDSUBGRUPO_PRODUTO": 13,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 21.49,
+        "DATA_LIMITE_PROM": "2024-10-11",
+        "DATA_INICIO_PROM": "2024-10-12",
         "CODIGO_BARRA": "7898005510234"
     },
     "5625": {
@@ -32472,7 +32472,7 @@
     "5730": {
         "descricao": "AMENDOIM PETTIZ CROCANTE CEBOLA E SALSA 120G",
         "IDPRODUTO": 5730,
-        "PRECO_VENDA": 7.99,
+        "PRECO_VENDA": 9.2,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -32482,7 +32482,7 @@
     "5731": {
         "descricao": "AM PETTIZ CROCANTE NATURAL 120G",
         "IDPRODUTO": 5731,
-        "PRECO_VENDA": 8.25,
+        "PRECO_VENDA": 9.2,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33222,11 +33222,11 @@
     "5858": {
         "descricao": "SORVETE STERBOM ABACAXI SUICO 1.5L",
         "IDPRODUTO": 5858,
-        "PRECO_VENDA": 20.99,
+        "PRECO_VENDA": 21.49,
         "IDSUBGRUPO_PRODUTO": 13,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 21.49,
+        "DATA_LIMITE_PROM": "2024-10-11",
+        "DATA_INICIO_PROM": "2024-10-12",
         "CODIGO_BARRA": "7898005510289"
     },
     "5859": {
@@ -33832,7 +33832,7 @@
     "5948": {
         "descricao": "BRAHMA DUPLO MALTE LITRINHO 300ML",
         "IDPRODUTO": 5948,
-        "PRECO_VENDA": 2.99,
+        "PRECO_VENDA": 3.1,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -35252,7 +35252,7 @@
     "6149": {
         "descricao": "AM PETTIZ NATURAL CROCANTE  350G",
         "IDPRODUTO": 6149,
-        "PRECO_VENDA": 17.49,
+        "PRECO_VENDA": 18.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -35712,7 +35712,7 @@
     "6224": {
         "descricao": "AMENDOIM PETTIZ PIMENTA VERMELHA 350G",
         "IDPRODUTO": 6224,
-        "PRECO_VENDA": 18.49,
+        "PRECO_VENDA": 18.99,
         "IDSUBGRUPO_PRODUTO": 5,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -36582,7 +36582,7 @@
     "6347": {
         "descricao": "SORVETE STERBOM 3 CHOCOLATE 2LT",
         "IDPRODUTO": 6347,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -37782,7 +37782,7 @@
     "6519": {
         "descricao": "DILUTE XAROPE SUCO  DE MORANGO  500 ML",
         "IDPRODUTO": 6519,
-        "PRECO_VENDA": 36.99,
+        "PRECO_VENDA": 38.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -37792,7 +37792,7 @@
     "6520": {
         "descricao": "DILUTE  XAROPE DE SUCO BLUE CURACAU COM LARANJA 500 ML",
         "IDPRODUTO": 6520,
-        "PRECO_VENDA": 34.9,
+        "PRECO_VENDA": 36.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -37802,7 +37802,7 @@
     "6522": {
         "descricao": "SORVETE STERBOM CREME 2LT",
         "IDPRODUTO": 6522,
-        "PRECO_VENDA": 25.99,
+        "PRECO_VENDA": 26.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -38712,7 +38712,7 @@
     "6656": {
         "descricao": "AMENDOIM PETTIZ TOMATE MANJERICAO 120GR",
         "IDPRODUTO": 6656,
-        "PRECO_VENDA": 7.29,
+        "PRECO_VENDA": 9.2,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -38752,7 +38752,7 @@
     "6661": {
         "descricao": "BOLINHO BAUDUCCO ROLL 34GR",
         "IDPRODUTO": 6661,
-        "PRECO_VENDA": 1.99,
+        "PRECO_VENDA": 2.25,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -39338,6 +39338,16 @@
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7898286565428"
+    },
+    "6740": {
+        "descricao": "CAJUINA DORE 250ML",
+        "IDPRODUTO": 6740,
+        "PRECO_VENDA": 1.75,
+        "IDSUBGRUPO_PRODUTO": 29,
+        "PRECO_PROMOCIONAL": 0,
+        "DATA_LIMITE_PROM": "1899-12-30",
+        "DATA_INICIO_PROM": "1899-12-30",
+        "CODIGO_BARRA": "7897240900145"
     },
     "6741": {
         "descricao": "SALAME ITALIANO SADIA 100GR",
@@ -40652,7 +40662,7 @@
     "8053": {
         "descricao": "POLPA FRUTA STERBOM MARACUJA 400GR",
         "IDPRODUTO": 8053,
-        "PRECO_VENDA": 15.99,
+        "PRECO_VENDA": 17.99,
         "IDSUBGRUPO_PRODUTO": 21,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -41152,7 +41162,7 @@
     "8143": {
         "descricao": "IMPERIO ULTRA LT 269ML",
         "IDPRODUTO": 8143,
-        "PRECO_VENDA": 3.5,
+        "PRECO_VENDA": 3.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -41962,7 +41972,7 @@
     "8265": {
         "descricao": "PAO DE ALHO TRAD C/QUEI FRIATO 300G",
         "IDPRODUTO": 8265,
-        "PRECO_VENDA": 12.99,
+        "PRECO_VENDA": 13.49,
         "IDSUBGRUPO_PRODUTO": 8,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -42192,7 +42202,7 @@
     "8303": {
         "descricao": "PAO DE FORMA BAUDUCCO TRADICIONAL 390G",
         "IDPRODUTO": 8303,
-        "PRECO_VENDA": 6.49,
+        "PRECO_VENDA": 8.79,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -43262,7 +43272,7 @@
     "8484": {
         "descricao": "SORVETE STERBOM GELATO CHICLETE C/BANANA 1,5LT",
         "IDPRODUTO": 8484,
-        "PRECO_VENDA": 18.99,
+        "PRECO_VENDA": 21.49,
         "IDSUBGRUPO_PRODUTO": 13,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -43440,9 +43450,9 @@
         "CODIGO_BARRA": "7896275900601"
     },
     "8513": {
-        "descricao": "CARNE BOV PICANHA QUALITY FATIADA KG",
+        "descricao": "PICANHA GRILL FRINORT  KG",
         "IDPRODUTO": 8513,
-        "PRECO_VENDA": 39.9,
+        "PRECO_VENDA": 64.9,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -43932,7 +43942,7 @@
     "8569": {
         "descricao": "CAPA CONTRA FILET GRILL BOV",
         "IDPRODUTO": 8569,
-        "PRECO_VENDA": 32.9,
+        "PRECO_VENDA": 34.9,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -44432,7 +44442,7 @@
     "8639": {
         "descricao": "ALCOOL TOPCLEAR 46% 1L",
         "IDPRODUTO": 8639,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 7.49,
         "IDSUBGRUPO_PRODUTO": 3,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -45632,7 +45642,7 @@
     "8795": {
         "descricao": "COQUETEL NINNOFF ICE LIMAO 1L",
         "IDPRODUTO": 8795,
-        "PRECO_VENDA": 8.49,
+        "PRECO_VENDA": 6.25,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -45982,7 +45992,7 @@
     "8840": {
         "descricao": "SALAME FATIADO PERDIGAO PT 100G",
         "IDPRODUTO": 8840,
-        "PRECO_VENDA": 11.49,
+        "PRECO_VENDA": 12.39,
         "IDSUBGRUPO_PRODUTO": 7,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
