@@ -3315,7 +3315,7 @@
         "PRECO_VENDA": 2.99,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 2.75,
-        "DATA_LIMITE_PROM": "2024-10-13",
+        "DATA_LIMITE_PROM": "2024-10-22",
         "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7898904771606"
     },
@@ -3372,10 +3372,10 @@
     "594": {
         "descricao": "ITAIPAVA LATA 350ML",
         "IDPRODUTO": 594,
-        "PRECO_VENDA": 2.49,
+        "PRECO_VENDA": 2.59,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 2.29,
-        "DATA_LIMITE_PROM": "2024-08-24",
+        "DATA_LIMITE_PROM": "2024-10-22",
         "DATA_INICIO_PROM": "2024-08-20",
         "CODIGO_BARRA": "7897395020101"
     },
@@ -3422,7 +3422,7 @@
     "610": {
         "descricao": "ITAIPAVA PREMIUM LATA 350ML",
         "IDPRODUTO": 610,
-        "PRECO_VENDA": 4,
+        "PRECO_VENDA": 3.19,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -3904,7 +3904,7 @@
         "IDPRODUTO": 774,
         "PRECO_VENDA": 3.49,
         "IDSUBGRUPO_PRODUTO": 15,
-        "PRECO_PROMOCIONAL": 2.25,
+        "PRECO_PROMOCIONAL": 1.99,
         "DATA_LIMITE_PROM": "2024-10-31",
         "DATA_INICIO_PROM": "2024-10-18",
         "CODIGO_BARRA": "7891000051436"
@@ -4444,9 +4444,9 @@
         "IDPRODUTO": 1003,
         "PRECO_VENDA": 1.49,
         "IDSUBGRUPO_PRODUTO": 35,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 0.79,
+        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091018035"
     },
     "1006": {
@@ -5462,7 +5462,7 @@
     "1442": {
         "descricao": "FUMO DESFIADO MARATA",
         "IDPRODUTO": 1442,
-        "PRECO_VENDA": 3.5,
+        "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 37,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -7645,7 +7645,7 @@
         "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 3.49,
-        "DATA_LIMITE_PROM": "2024-10-18",
+        "DATA_LIMITE_PROM": "2024-10-31",
         "DATA_INICIO_PROM": "2024-10-11",
         "CODIGO_BARRA": "7898367983790"
     },
@@ -8364,9 +8364,9 @@
         "IDPRODUTO": 2249,
         "PRECO_VENDA": 3,
         "IDSUBGRUPO_PRODUTO": 14,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 1.99,
+        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091064612"
     },
     "2251": {
@@ -12322,7 +12322,7 @@
     "2849": {
         "descricao": "BRAZITOS QUEIJO NACHO 30G",
         "IDPRODUTO": 2849,
-        "PRECO_VENDA": 2.25,
+        "PRECO_VENDA": 2.49,
         "IDSUBGRUPO_PRODUTO": 12,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -12850,13 +12850,13 @@
         "CODIGO_BARRA": "7896213005948"
     },
     "2918": {
-        "descricao": "BISC. TRELOSO CHOCORESCO 130G",
+        "descricao": "BISC. TRELOSO CHOCORESCO 120G",
         "IDPRODUTO": 2918,
         "PRECO_VENDA": 2.49,
         "IDSUBGRUPO_PRODUTO": 15,
-        "PRECO_PROMOCIONAL": 1.79,
-        "DATA_LIMITE_PROM": "2024-09-30",
-        "DATA_INICIO_PROM": "2024-08-20",
+        "PRECO_PROMOCIONAL": 0.99,
+        "DATA_LIMITE_PROM": "2024-10-23",
+        "DATA_INICIO_PROM": "2024-10-23",
         "CODIGO_BARRA": "7896213005887"
     },
     "2919": {
@@ -14422,7 +14422,7 @@
     "3140": {
         "descricao": "KETCHUP QUERO 300G",
         "IDPRODUTO": 3140,
-        "PRECO_VENDA": 3.99,
+        "PRECO_VENDA": 4.75,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -17374,9 +17374,9 @@
         "IDPRODUTO": 3563,
         "PRECO_VENDA": 3.49,
         "IDSUBGRUPO_PRODUTO": 15,
-        "PRECO_PROMOCIONAL": 1.99,
-        "DATA_LIMITE_PROM": "2024-08-17",
-        "DATA_INICIO_PROM": "2024-08-15",
+        "PRECO_PROMOCIONAL": 1.49,
+        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891000241295"
     },
     "3565": {
@@ -21674,9 +21674,9 @@
         "IDPRODUTO": 4193,
         "PRECO_VENDA": 2.19,
         "IDSUBGRUPO_PRODUTO": 10,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 1.09,
+        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091010718"
     },
     "4194": {
@@ -23692,7 +23692,7 @@
     "4467": {
         "descricao": "FAROFA YOKI TEMPERO SUAVE 200G",
         "IDPRODUTO": 4467,
-        "PRECO_VENDA": 5,
+        "PRECO_VENDA": 7.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -25124,9 +25124,9 @@
         "IDPRODUTO": 4637,
         "PRECO_VENDA": 4.79,
         "IDSUBGRUPO_PRODUTO": 10,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 3.89,
+        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091010206"
     },
     "4638": {
@@ -25422,7 +25422,7 @@
     "4679": {
         "descricao": "SKOL BEATS MINT MOJITO 269ML",
         "IDPRODUTO": 4679,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -25432,7 +25432,7 @@
     "4680": {
         "descricao": "SKOL BEATS GINGER MOSCOW MULE 269ML",
         "IDPRODUTO": 4680,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -26844,9 +26844,9 @@
         "IDPRODUTO": 4875,
         "PRECO_VENDA": 2.79,
         "IDSUBGRUPO_PRODUTO": 8,
-        "PRECO_PROMOCIONAL": 2.09,
-        "DATA_LIMITE_PROM": "2024-09-30",
-        "DATA_INICIO_PROM": "2024-08-20",
+        "PRECO_PROMOCIONAL": 1.25,
+        "DATA_LIMITE_PROM": "2024-10-27",
+        "DATA_INICIO_PROM": "2024-10-23",
         "CODIGO_BARRA": "7898230897667"
     },
     "4876": {
@@ -28074,9 +28074,9 @@
         "IDPRODUTO": 5045,
         "PRECO_VENDA": 3.59,
         "IDSUBGRUPO_PRODUTO": 8,
-        "PRECO_PROMOCIONAL": 3.1,
-        "DATA_LIMITE_PROM": "2024-09-22",
-        "DATA_INICIO_PROM": "2024-09-18",
+        "PRECO_PROMOCIONAL": 1.25,
+        "DATA_LIMITE_PROM": "2024-10-27",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891152802108"
     },
     "5046": {
@@ -28154,9 +28154,9 @@
         "IDPRODUTO": 5054,
         "PRECO_VENDA": 6.99,
         "IDSUBGRUPO_PRODUTO": 15,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 2.49,
+        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_INICIO_PROM": "2024-10-23",
         "CODIGO_BARRA": "7896213006358"
     },
     "5056": {
@@ -29964,9 +29964,9 @@
         "IDPRODUTO": 5336,
         "PRECO_VENDA": 2.5,
         "IDSUBGRUPO_PRODUTO": 10,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 1.79,
+        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091010558"
     },
     "5339": {
@@ -31050,14 +31050,14 @@
         "CODIGO_BARRA": "7898912925428"
     },
     "5505": {
-        "descricao": "PROTETOR SOLAR NIVEA FPS 50 200ML",
+        "descricao": "PROTETOR SOLAR NIVEA KIDS FPS 60 150ML",
         "IDPRODUTO": 5505,
-        "PRECO_VENDA": 62.99,
+        "PRECO_VENDA": 76.99,
         "IDSUBGRUPO_PRODUTO": 35,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
         "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "4005808555345"
+        "CODIGO_BARRA": "4005808516667"
     },
     "5506": {
         "descricao": "PROT SOLAR FPS 30 100ML",
@@ -34574,9 +34574,9 @@
         "IDPRODUTO": 6049,
         "PRECO_VENDA": 8.59,
         "IDSUBGRUPO_PRODUTO": 8,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 4.49,
+        "DATA_LIMITE_PROM": "2024-10-27",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7896213000059"
     },
     "6050": {
@@ -35222,7 +35222,7 @@
     "6143": {
         "descricao": "FILTRO SAO BRAZ 102 C 30UND",
         "IDPRODUTO": 6143,
-        "PRECO_VENDA": 4.25,
+        "PRECO_VENDA": 4.49,
         "IDSUBGRUPO_PRODUTO": 5,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -35234,9 +35234,9 @@
         "IDPRODUTO": 6144,
         "PRECO_VENDA": 4.99,
         "IDSUBGRUPO_PRODUTO": 10,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 4.49,
+        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091017120"
     },
     "6147": {
@@ -35272,7 +35272,7 @@
     "6152": {
         "descricao": "CARNE DE SOL COXAO MOLE KG",
         "IDPRODUTO": 6152,
-        "PRECO_VENDA": 41.9,
+        "PRECO_VENDA": 43.9,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -39339,16 +39339,6 @@
         "DATA_INICIO_PROM": "1899-12-30",
         "CODIGO_BARRA": "7898286565428"
     },
-    "6740": {
-        "descricao": "CAJUINA DORE 250ML",
-        "IDPRODUTO": 6740,
-        "PRECO_VENDA": 1.75,
-        "IDSUBGRUPO_PRODUTO": 29,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
-        "CODIGO_BARRA": "7897240900145"
-    },
     "6741": {
         "descricao": "SALAME ITALIANO SADIA 100GR",
         "IDPRODUTO": 6741,
@@ -41452,7 +41442,7 @@
     "8188": {
         "descricao": "BEATS TROPICAL LT 269ML",
         "IDPRODUTO": 8188,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -43090,33 +43080,33 @@
         "CODIGO_BARRA": "7791293022581"
     },
     "8453": {
-        "descricao": "MOLHO TOM FUGINI ERVAS FINAS SACHE CX 36X300G",
+        "descricao": "MOLHO TOM FUGINI ERVAS FINAS 300G",
         "IDPRODUTO": 8453,
         "PRECO_VENDA": 3.29,
         "IDSUBGRUPO_PRODUTO": 10,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 1.99,
+        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7897517206710"
     },
     "8454": {
-        "descricao": "MOLHO TOM FUGINI MANJERICAO SACHE CX 36X300G",
+        "descricao": "MOLHO TOM FUGINI MANJERICAO 300G",
         "IDPRODUTO": 8454,
         "PRECO_VENDA": 3.29,
         "IDSUBGRUPO_PRODUTO": 10,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 1.99,
+        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7897517206123"
     },
     "8455": {
-        "descricao": "MOLHO TOM FUGINI PIZZA SACHE CX 36X300G",
+        "descricao": "MOLHO TOM FUGINI PIZZA 300G",
         "IDPRODUTO": 8455,
         "PRECO_VENDA": 3.29,
         "IDSUBGRUPO_PRODUTO": 10,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 1.99,
+        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7897517206130"
     },
     "8456": {
@@ -43450,13 +43440,13 @@
         "CODIGO_BARRA": "7896275900601"
     },
     "8513": {
-        "descricao": "PICANHA GRILL FRINORT  KG",
+        "descricao": "PICANHA GRILL FRINORT KG",
         "IDPRODUTO": 8513,
         "PRECO_VENDA": 64.9,
         "IDSUBGRUPO_PRODUTO": 18,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 59.9,
+        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_INICIO_PROM": "2024-10-26",
         "CODIGO_BARRA": "8513"
     },
     "8514": {
@@ -44352,7 +44342,7 @@
     "8627": {
         "descricao": "BISCOITO OREO RECHEADO BAUNILHA 90GR",
         "IDPRODUTO": 8627,
-        "PRECO_VENDA": 4.25,
+        "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -44362,7 +44352,7 @@
     "8628": {
         "descricao": "BISCOITO OREO RECHEADO CHOCOLATE 90GR",
         "IDPRODUTO": 8628,
-        "PRECO_VENDA": 4.25,
+        "PRECO_VENDA": 3.99,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 2.5,
         "DATA_LIMITE_PROM": "2024-08-01",
@@ -45640,13 +45630,13 @@
         "CODIGO_BARRA": "17897736409623"
     },
     "8795": {
-        "descricao": "COQUETEL NINNOFF ICE LIMAO 1L",
+        "descricao": "BEBIDA MISTA NINNOFF ICE LIMAO 1L",
         "IDPRODUTO": 8795,
-        "PRECO_VENDA": 6.25,
+        "PRECO_VENDA": 8.39,
         "IDSUBGRUPO_PRODUTO": 23,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 6.49,
+        "DATA_LIMITE_PROM": "2024-11-04",
+        "DATA_INICIO_PROM": "2024-10-24",
         "CODIGO_BARRA": "17897736411541"
     },
     "8797": {
@@ -46148,6 +46138,16 @@
         "DATA_LIMITE_PROM": "2024-08-12",
         "DATA_INICIO_PROM": "2024-08-11",
         "CODIGO_BARRA": "5000265100519"
+    },
+    "9037": {
+        "descricao": "GRANOLA SAO BRAZ TRADIC 250G",
+        "IDPRODUTO": 9037,
+        "PRECO_VENDA": 10.99,
+        "IDSUBGRUPO_PRODUTO": 10,
+        "PRECO_PROMOCIONAL": 9.99,
+        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_INICIO_PROM": "2024-10-25",
+        "CODIGO_BARRA": "7891091048605"
     },
     "9160": {
         "descricao": "MOLHO DE TOMATE POMODORO TRAD 300GR",

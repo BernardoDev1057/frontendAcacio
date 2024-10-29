@@ -162,7 +162,7 @@
         const linhaAltura = 10;
 
         // Carregar os produtos do Firebase
-        let produtos = await getData(); // Função que obtém os produtos do Firebase
+        let produtos = await carregarProdutos(); // Função que obtém os produtos do Firebase
         const dataAtual = new Date();
 
         // Iterar sobre os produtos e exibir apenas os que estão em promoção
