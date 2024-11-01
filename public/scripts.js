@@ -1,4 +1,16 @@
-    let estoque = [];
+    var estoque = [];
+
+    function formatarData(data) {
+        if (!(data instanceof Date)) {
+            throw new Error("O argumento deve ser uma instância de Date.");
+        }
+    
+        const dia = String(data.getDate()).padStart(2, '0'); // Obtém o dia e formata para dois dígitos
+        const mes = String(data.getMonth() + 1).padStart(2, '0'); // Obtém o mês (0-11) e formata para dois dígitos
+        const ano = data.getFullYear(); // Obtém o ano
+    
+        return `${dia}/${mes}/${ano}`; // Retorna a data no formato "Dia/Mês/Ano"
+    }
 
     // Função para carregar produtos
     async function carregarProdutos() {
@@ -295,3 +307,96 @@
         // Redireciona para o WhatsApp com a mensagem formatada
         window.open(urlWhatsApp, '_blank');
     });
+    document.getElementById('shareOffersButton').addEventListener('click', async () => {
+        document.getElementById('loadingIndicator').style.display = 'block';
+    
+        try {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+    
+            doc.setTextColor("#333");
+            doc.setFontSize(16);
+    
+            const drawHeader = () => {
+                doc.setFillColor("#ff6700");
+                doc.rect(10, 10, 190, 20, 'F');
+                doc.setTextColor("#fff");
+                doc.text("Relatório de Ofertas - Acácio Bebidas", 15, 23);
+            };
+            drawHeader();
+    
+            let yPosition = 40; // Posição inicial para o primeiro produto
+            let itemCount = 0; // Contador para produtos desenhados
+            const dataAtual = new Date();
+    
+            const loadImageAsBase64 = async (src) => {
+                return new Promise((resolve, reject) => {
+                    const img = new Image();
+                    img.crossOrigin = "anonymous";
+                    img.onload = () => {
+                        const canvas = document.createElement("canvas");
+                        canvas.width = img.width;
+                        canvas.height = img.height;
+                        const ctx = canvas.getContext("2d");
+                        ctx.drawImage(img, 0, 0);
+                        resolve(canvas.toDataURL("image/png"));
+                    };
+                    img.onerror = () => {
+                        console.warn(`Imagem não encontrada para o produto: ${src}.`);
+                        resolve(null); // Retorna null em caso de falha
+                    };
+                    img.src = src;
+                });
+            };
+    
+            const drawProductWithImage = async (produto) => {
+                const imageSrc = `img/${produto.IDPRODUTO}.png`;
+                const imageBase64 = await loadImageAsBase64(imageSrc);
+    
+                // Caixa do produto
+                doc.setDrawColor("#007bff");
+                doc.rect(10, yPosition, 190, 30);
+    
+                if (imageBase64) {
+                    doc.addImage(imageBase64, "PNG", 15, yPosition + 5, 25, 25);
+                } else {
+                    doc.setFillColor("#ccc");
+                    doc.rect(15, yPosition + 5, 25, 25, 'F');
+                    doc.setTextColor("#666");
+                    doc.text("No Image", 20, yPosition + 20);
+                }
+    
+                doc.setFontSize(14);
+                doc.setTextColor("#333");
+                doc.text(`Produto: ${produto.descricao}`, 45, yPosition + 10);
+                doc.text(`Preço de Venda: R$ ${produto.PRECO_VENDA.toFixed(2)}`, 45, yPosition + 20);
+                doc.text(`Preço Promocional: R$ ${produto.PRECO_PROMOCIONAL.toFixed(2)}`, 120, yPosition + 20);
+    
+                yPosition += 40; // Atualiza a posição para o próximo produto
+                itemCount++; // Incrementa o contador de itens
+    
+                // Verifica se já desenhou 6 itens e pula para uma nova página se necessário
+                if (itemCount % 6 === 0) {
+                    doc.addPage();
+                    yPosition = 40; // Reseta a posição y para a nova página
+                    drawHeader(); // Desenha o cabeçalho novamente
+                }
+            };
+    
+            for (const produto of Object.values(estoque)) {
+                const dataInicioProm = new Date(produto.DATA_INICIO_PROM);
+                const dataLimiteProm = new Date(produto.DATA_LIMITE_PROM);
+    
+                if (produto.PRECO_PROMOCIONAL > 0 && dataAtual >= dataInicioProm && dataAtual <= dataLimiteProm) {
+                    await drawProductWithImage(produto);
+                }
+            }
+    
+            doc.save(`Ofertas_Acácio_Bebidas${formatarData(dataAtual)}.pdf`);
+        } catch (error) {
+            console.error("Erro ao gerar o PDF:", error);
+        } finally {
+            document.getElementById('loadingIndicator').style.display = 'none';
+        }
+    });
+    

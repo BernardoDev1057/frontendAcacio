@@ -1225,7 +1225,7 @@
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 20,
         "PRECO_PROMOCIONAL": 4.49,
-        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-04",
         "CODIGO_BARRA": "7898912925091"
     },
@@ -2325,7 +2325,7 @@
         "PRECO_VENDA": 86.9,
         "IDSUBGRUPO_PRODUTO": 25,
         "PRECO_PROMOCIONAL": 84.9,
-        "DATA_LIMITE_PROM": "2024-10-31",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-07-19",
         "CODIGO_BARRA": "5000267013602"
     },
@@ -4445,7 +4445,7 @@
         "PRECO_VENDA": 1.49,
         "IDSUBGRUPO_PRODUTO": 35,
         "PRECO_PROMOCIONAL": 0.79,
-        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091018035"
     },
@@ -4632,7 +4632,7 @@
     "1070": {
         "descricao": "SKOL LITRINHO 300ML",
         "IDPRODUTO": 1070,
-        "PRECO_VENDA": 2.99,
+        "PRECO_VENDA": 3.09,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5352,7 +5352,7 @@
     "1395": {
         "descricao": "KENT AZUL AUTENTICO (DERBY)",
         "IDPRODUTO": 1395,
-        "PRECO_VENDA": 8.5,
+        "PRECO_VENDA": 10.25,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5362,7 +5362,7 @@
     "1402": {
         "descricao": "KENT PRATA BRILHANTE (DERBY)",
         "IDPRODUTO": 1402,
-        "PRECO_VENDA": 8.5,
+        "PRECO_VENDA": 10.25,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5372,7 +5372,7 @@
     "1404": {
         "descricao": "DUNHILL CARLTON VERMELHO",
         "IDPRODUTO": 1404,
-        "PRECO_VENDA": 11.5,
+        "PRECO_VENDA": 13.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5382,7 +5382,7 @@
     "1408": {
         "descricao": "DUNHILL ON ICE BOOST",
         "IDPRODUTO": 1408,
-        "PRECO_VENDA": 9.75,
+        "PRECO_VENDA": 10.75,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5402,7 +5402,7 @@
     "1413": {
         "descricao": "DUNHILL ON  RED",
         "IDPRODUTO": 1413,
-        "PRECO_VENDA": 9.75,
+        "PRECO_VENDA": 10.75,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5412,7 +5412,7 @@
     "1426": {
         "descricao": "LUCKY STRIKE VERMELHO BOX",
         "IDPRODUTO": 1426,
-        "PRECO_VENDA": 9,
+        "PRECO_VENDA": 10.75,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5422,7 +5422,7 @@
     "1431": {
         "descricao": "LUCKY STRIKE MENTA",
         "IDPRODUTO": 1431,
-        "PRECO_VENDA": 9.5,
+        "PRECO_VENDA": 11.25,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5442,7 +5442,7 @@
     "1434": {
         "descricao": "MARLBORO GOLD BOX",
         "IDPRODUTO": 1434,
-        "PRECO_VENDA": 11.5,
+        "PRECO_VENDA": 13.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5452,7 +5452,7 @@
     "1437": {
         "descricao": "MARLBORO VERMELHO BOX",
         "IDPRODUTO": 1437,
-        "PRECO_VENDA": 11.5,
+        "PRECO_VENDA": 13.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -5675,7 +5675,7 @@
         "PRECO_VENDA": 5.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 4.89,
-        "DATA_LIMITE_PROM": "2024-10-31",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-17",
         "CODIGO_BARRA": "7898367980010"
     },
@@ -5762,7 +5762,7 @@
     "1537": {
         "descricao": "MARLBORO BLUE ICE",
         "IDPRODUTO": 1537,
-        "PRECO_VENDA": 11.5,
+        "PRECO_VENDA": 13.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -6722,7 +6722,7 @@
     "1840": {
         "descricao": "LUCKY STRIKE DOUBLE FRESH",
         "IDPRODUTO": 1840,
-        "PRECO_VENDA": 10,
+        "PRECO_VENDA": 11.75,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -7612,7 +7612,7 @@
     "2143": {
         "descricao": "DUNHILL DOUBLE",
         "IDPRODUTO": 2143,
-        "PRECO_VENDA": 11.5,
+        "PRECO_VENDA": 13.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -8365,7 +8365,7 @@
         "PRECO_VENDA": 3,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 1.99,
-        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091064612"
     },
@@ -8600,9 +8600,9 @@
         "CODIGO_BARRA": "7898286563110"
     },
     "2283": {
-        "descricao": "COXINHA DA ASA BOM TODO 1KG",
+        "descricao": "COXINHA DA ASA TEMP BOM TODO 1KG",
         "IDPRODUTO": 2283,
-        "PRECO_VENDA": 19.99,
+        "PRECO_VENDA": 21.99,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -8672,7 +8672,7 @@
     "2307": {
         "descricao": "CORONITA 210ML",
         "IDPRODUTO": 2307,
-        "PRECO_VENDA": 5.25,
+        "PRECO_VENDA": 5.69,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -12942,7 +12942,7 @@
     "2927": {
         "descricao": "BIS XTRA 45G",
         "IDPRODUTO": 2927,
-        "PRECO_VENDA": 3.49,
+        "PRECO_VENDA": 4.79,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -13402,7 +13402,7 @@
     "2992": {
         "descricao": "DIAMANTE NEGRO 34GR",
         "IDPRODUTO": 2992,
-        "PRECO_VENDA": 3.29,
+        "PRECO_VENDA": 3.79,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -13862,7 +13862,7 @@
     "3062": {
         "descricao": "ROTHMANS AZUL BOX",
         "IDPRODUTO": 3062,
-        "PRECO_VENDA": 7,
+        "PRECO_VENDA": 8.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -14042,7 +14042,7 @@
     "3084": {
         "descricao": "ROTHMANS AZUL KS",
         "IDPRODUTO": 3084,
-        "PRECO_VENDA": 6.75,
+        "PRECO_VENDA": 8.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -14202,7 +14202,7 @@
     "3108": {
         "descricao": "BOMBOM OURO BRANCO 20G",
         "IDPRODUTO": 3108,
-        "PRECO_VENDA": 1.59,
+        "PRECO_VENDA": 1.5,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -14212,7 +14212,7 @@
     "3109": {
         "descricao": "BOMBOM SONHO VALSA 20G",
         "IDPRODUTO": 3109,
-        "PRECO_VENDA": 1.75,
+        "PRECO_VENDA": 1.5,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -14672,7 +14672,7 @@
     "3185": {
         "descricao": "ROTHMANS RED BOX",
         "IDPRODUTO": 3185,
-        "PRECO_VENDA": 7,
+        "PRECO_VENDA": 8.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -15052,7 +15052,7 @@
     "3227": {
         "descricao": "BOHEMIA LITRINHO 300ML",
         "IDPRODUTO": 3227,
-        "PRECO_VENDA": 2.99,
+        "PRECO_VENDA": 3.09,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -16452,7 +16452,7 @@
     "3439": {
         "descricao": "DUNHILL ON BLUE",
         "IDPRODUTO": 3439,
-        "PRECO_VENDA": 9.75,
+        "PRECO_VENDA": 10.75,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -17375,7 +17375,7 @@
         "PRECO_VENDA": 3.49,
         "IDSUBGRUPO_PRODUTO": 15,
         "PRECO_PROMOCIONAL": 1.49,
-        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_LIMITE_PROM": "2024-10-31",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891000241295"
     },
@@ -17742,7 +17742,7 @@
     "3615": {
         "descricao": "ROTHMANS INTERNACIONAL",
         "IDPRODUTO": 3615,
-        "PRECO_VENDA": 8.25,
+        "PRECO_VENDA": 10,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -18242,7 +18242,7 @@
     "3696": {
         "descricao": "CAFE SAO BRAZ FAMILIA ALM 250G",
         "IDPRODUTO": 3696,
-        "PRECO_VENDA": 10.49,
+        "PRECO_VENDA": 11.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "2023-11-30",
@@ -18852,7 +18852,7 @@
     "3777": {
         "descricao": "OVOS",
         "IDPRODUTO": 3777,
-        "PRECO_VENDA": 0.65,
+        "PRECO_VENDA": 15.9,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -19362,7 +19362,7 @@
     "3864": {
         "descricao": "LUCKY STRIKE VERMELHO MACO",
         "IDPRODUTO": 3864,
-        "PRECO_VENDA": 9,
+        "PRECO_VENDA": 10.75,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -19435,7 +19435,7 @@
         "PRECO_VENDA": 38.99,
         "IDSUBGRUPO_PRODUTO": 19,
         "PRECO_PROMOCIONAL": 39.9,
-        "DATA_LIMITE_PROM": "2024-10-18",
+        "DATA_LIMITE_PROM": "2024-10-19",
         "DATA_INICIO_PROM": "2024-10-19",
         "CODIGO_BARRA": "7908026900300"
     },
@@ -21675,7 +21675,7 @@
         "PRECO_VENDA": 2.19,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 1.09,
-        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091010718"
     },
@@ -22802,7 +22802,7 @@
     "4345": {
         "descricao": "ROTHMANS INTERNACIONAL DOUBLE CLICK",
         "IDPRODUTO": 4345,
-        "PRECO_VENDA": 8.75,
+        "PRECO_VENDA": 10.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -23972,7 +23972,7 @@
     "4499": {
         "descricao": "ROTHMANS INTERNACIONAL CLICK SENSE",
         "IDPRODUTO": 4499,
-        "PRECO_VENDA": 8.25,
+        "PRECO_VENDA": 10,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -24602,7 +24602,7 @@
     "4580": {
         "descricao": "DUNHILL EVOQUE TABACCO",
         "IDPRODUTO": 4580,
-        "PRECO_VENDA": 12.5,
+        "PRECO_VENDA": 14.5,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -25125,7 +25125,7 @@
         "PRECO_VENDA": 4.79,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 3.89,
-        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091010206"
     },
@@ -27362,7 +27362,7 @@
     "4945": {
         "descricao": "AZEITONA RIVOLI COM CAROCO PLQ 150GR",
         "IDPRODUTO": 4945,
-        "PRECO_VENDA": 2.49,
+        "PRECO_VENDA": 3.25,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -29965,7 +29965,7 @@
         "PRECO_VENDA": 2.5,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 1.79,
-        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091010558"
     },
@@ -30292,7 +30292,7 @@
     "5380": {
         "descricao": "ROTHMANS CLICK PURPLE",
         "IDPRODUTO": 5380,
-        "PRECO_VENDA": 7.5,
+        "PRECO_VENDA": 9.25,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -30622,7 +30622,7 @@
     "5431": {
         "descricao": "BUDWEISER 1LT",
         "IDPRODUTO": 5431,
-        "PRECO_VENDA": 7.99,
+        "PRECO_VENDA": 8.19,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -31302,7 +31302,7 @@
     "5549": {
         "descricao": "CORONA EXTRA LATA 350ML",
         "IDPRODUTO": 5549,
-        "PRECO_VENDA": 5.99,
+        "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -31672,7 +31672,7 @@
     "5607": {
         "descricao": "MARLBORO RED SELECTION",
         "IDPRODUTO": 5607,
-        "PRECO_VENDA": 6.5,
+        "PRECO_VENDA": 8,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -31682,7 +31682,7 @@
     "5608": {
         "descricao": "MARLBORO GOLD SELECTION",
         "IDPRODUTO": 5608,
-        "PRECO_VENDA": 6.5,
+        "PRECO_VENDA": 8,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -32362,7 +32362,7 @@
     "5713": {
         "descricao": "BRAHMA DUPLO MALTE 1L",
         "IDPRODUTO": 5713,
-        "PRECO_VENDA": 7.49,
+        "PRECO_VENDA": 7.99,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33232,7 +33232,7 @@
     "5859": {
         "descricao": "ROTHMANS RED GLOBAL",
         "IDPRODUTO": 5859,
-        "PRECO_VENDA": 6.5,
+        "PRECO_VENDA": 7,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33242,7 +33242,7 @@
     "5860": {
         "descricao": "ROTHMANS BLUE GLOBAL",
         "IDPRODUTO": 5860,
-        "PRECO_VENDA": 6.5,
+        "PRECO_VENDA": 7,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33822,7 +33822,7 @@
     "5947": {
         "descricao": "BRAHMA CHOPP LITRINHO 300ML",
         "IDPRODUTO": 5947,
-        "PRECO_VENDA": 2.99,
+        "PRECO_VENDA": 3.09,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -33832,7 +33832,7 @@
     "5948": {
         "descricao": "BRAHMA DUPLO MALTE LITRINHO 300ML",
         "IDPRODUTO": 5948,
-        "PRECO_VENDA": 3.1,
+        "PRECO_VENDA": 3.39,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -34182,7 +34182,7 @@
     "5995": {
         "descricao": "SALSICHA MISTA BOM TODO KG",
         "IDPRODUTO": 5995,
-        "PRECO_VENDA": 8.99,
+        "PRECO_VENDA": 10.49,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -34624,9 +34624,9 @@
         "IDPRODUTO": 6056,
         "PRECO_VENDA": 28.9,
         "IDSUBGRUPO_PRODUTO": 18,
-        "PRECO_PROMOCIONAL": 0,
-        "DATA_LIMITE_PROM": "1899-12-30",
-        "DATA_INICIO_PROM": "1899-12-30",
+        "PRECO_PROMOCIONAL": 23.99,
+        "DATA_LIMITE_PROM": "2024-12-31",
+        "DATA_INICIO_PROM": "2024-11-01",
         "CODIGO_BARRA": "6056"
     },
     "6060": {
@@ -35235,7 +35235,7 @@
         "PRECO_VENDA": 4.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 4.49,
-        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091017120"
     },
@@ -35270,9 +35270,9 @@
         "CODIGO_BARRA": "6151"
     },
     "6152": {
-        "descricao": "CARNE DE SOL COXAO MOLE KG",
+        "descricao": "COXAO MOLE DE SOL KG",
         "IDPRODUTO": 6152,
-        "PRECO_VENDA": 43.9,
+        "PRECO_VENDA": 45.9,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -36152,7 +36152,7 @@
     "6285": {
         "descricao": "WAFER SONHO DE VALSA 25GR",
         "IDPRODUTO": 6285,
-        "PRECO_VENDA": 2.5,
+        "PRECO_VENDA": 2.49,
         "IDSUBGRUPO_PRODUTO": 37,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -36160,9 +36160,9 @@
         "CODIGO_BARRA": "7622210570086"
     },
     "6286": {
-        "descricao": "OURO BRANCO 25GR",
+        "descricao": "WAFER OURO BRANCO 25GR",
         "IDPRODUTO": 6286,
-        "PRECO_VENDA": 2.5,
+        "PRECO_VENDA": 2.49,
         "IDSUBGRUPO_PRODUTO": 37,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -36532,7 +36532,7 @@
     "6342": {
         "descricao": "KENT RED BLEND PROMOCIONAL",
         "IDPRODUTO": 6342,
-        "PRECO_VENDA": 6.5,
+        "PRECO_VENDA": 7,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -38292,7 +38292,7 @@
     "6592": {
         "descricao": "BIS XTRA BLACK 45GR",
         "IDPRODUTO": 6592,
-        "PRECO_VENDA": 3.49,
+        "PRECO_VENDA": 4.79,
         "IDSUBGRUPO_PRODUTO": 14,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -38472,7 +38472,7 @@
     "6621": {
         "descricao": "LUCKY STRIKE FRESH WILD DOUBLE",
         "IDPRODUTO": 6621,
-        "PRECO_VENDA": 10,
+        "PRECO_VENDA": 11.75,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -39425,7 +39425,7 @@
         "PRECO_VENDA": 6.49,
         "IDSUBGRUPO_PRODUTO": 30,
         "PRECO_PROMOCIONAL": 3.49,
-        "DATA_LIMITE_PROM": "2024-10-29",
+        "DATA_LIMITE_PROM": "2024-11-29",
         "DATA_INICIO_PROM": "2024-10-08",
         "CODIGO_BARRA": "7898367984254"
     },
@@ -40440,7 +40440,7 @@
         "CODIGO_BARRA": "7898376590286"
     },
     "8008": {
-        "descricao": "CIGARRO LUCKY STRIKE CITRIC",
+        "descricao": "LUCKY STRIKE CITRIC",
         "IDPRODUTO": 8008,
         "PRECO_VENDA": 9.5,
         "IDSUBGRUPO_PRODUTO": 1,
@@ -40952,7 +40952,7 @@
     "8115": {
         "descricao": "CAFE SAO BRAZ EXTRAFORTE 250G",
         "IDPRODUTO": 8115,
-        "PRECO_VENDA": 8.49,
+        "PRECO_VENDA": 11.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -40962,7 +40962,7 @@
     "8116": {
         "descricao": "KENT BLUE BLEND PROMOCIONAL",
         "IDPRODUTO": 8116,
-        "PRECO_VENDA": 6.5,
+        "PRECO_VENDA": 7,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -43085,7 +43085,7 @@
         "PRECO_VENDA": 3.29,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 1.99,
-        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_LIMITE_PROM": "2024-10-31",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7897517206710"
     },
@@ -43095,7 +43095,7 @@
         "PRECO_VENDA": 3.29,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 1.99,
-        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7897517206123"
     },
@@ -43445,7 +43445,7 @@
         "PRECO_VENDA": 64.9,
         "IDSUBGRUPO_PRODUTO": 18,
         "PRECO_PROMOCIONAL": 59.9,
-        "DATA_LIMITE_PROM": "2024-10-28",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-26",
         "CODIGO_BARRA": "8513"
     },
@@ -44702,7 +44702,7 @@
     "8666": {
         "descricao": "CAFE PO SAO BRAZ PREMIUM VACUO 250G",
         "IDPRODUTO": 8666,
-        "PRECO_VENDA": 0,
+        "PRECO_VENDA": 11.99,
         "IDSUBGRUPO_PRODUTO": 37,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -45352,7 +45352,7 @@
     "8755": {
         "descricao": "DUNHIL ON SILVER(PRATA)",
         "IDPRODUTO": 8755,
-        "PRECO_VENDA": 9.75,
+        "PRECO_VENDA": 10.75,
         "IDSUBGRUPO_PRODUTO": 1,
         "PRECO_PROMOCIONAL": 0,
         "DATA_LIMITE_PROM": "1899-12-30",
@@ -45635,7 +45635,7 @@
         "PRECO_VENDA": 8.39,
         "IDSUBGRUPO_PRODUTO": 23,
         "PRECO_PROMOCIONAL": 6.49,
-        "DATA_LIMITE_PROM": "2024-11-04",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-24",
         "CODIGO_BARRA": "17897736411541"
     },
@@ -46145,7 +46145,7 @@
         "PRECO_VENDA": 10.99,
         "IDSUBGRUPO_PRODUTO": 10,
         "PRECO_PROMOCIONAL": 9.99,
-        "DATA_LIMITE_PROM": "2024-10-30",
+        "DATA_LIMITE_PROM": "2024-11-30",
         "DATA_INICIO_PROM": "2024-10-25",
         "CODIGO_BARRA": "7891091048605"
     },
